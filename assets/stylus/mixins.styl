@@ -1,0 +1,23 @@
+fontSzLh(size, lh)
+  font-size unit(size, px)
+  line-height unit(lh, px)
+
+objectFit(size, fit)
+  display block
+  width size
+  height size
+  object-fit fit
+
+transition(param, asDefault = false)
+  if asDefault
+    transition param
+  else
+    transition param $transition
+
+hover()
+  @media $hover
+    &:hover
+      {block}
+
+vh()
+  calc(var(--vh, 1vh) * 100)

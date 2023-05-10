@@ -1,0 +1,97 @@
+*
+  word-wrap break-word
+  word-break keep-all
+  outline none
+  box-sizing border-box
+  padding 0
+  margin 0
+
+*:after, *:before
+  box-sizing border-box
+
+html
+  min-width 320px
+  height 100%
+  position relative
+  scroll-behavior smooth
+
+body
+  display flex
+  flex-direction column
+  background $back
+  height 100%
+  position relative
+  cursor default
+  -webkit-overflow-scrolling auto
+  font 20px/32px 
+  font-family "Roboto", sans-serif
+  overflow-x hidden
+  color $white
+  @media $xs
+    fontSzLh(16,26)
+  &._noScroll
+    overflow hidden
+    touch-action none
+    -ms-touch-action none
+
+.main
+  display flex
+  flex-direction column
+  flex-grow 1
+  position relative
+  z-index 2
+
+.container
+  max-width 2560px
+  width 100%
+  padding 0 32px
+  margin 0 auto
+  position relative
+  @media $mdMinus
+    padding 0 24px
+  @media $xs
+    padding 0 12px
+  &-mini
+    position: relative;
+    width: 100%;
+    max-width: 1560px;
+    margin 0 auto
+
+input:not([type=checkbox]):not([type=radio]), textarea, select
+  resize none
+  appearance none
+  outline none
+
+input[disabled],
+input[readonly]
+  color: $white
+  opacity: 1
+
+button
+  background none
+  border none
+  outline none
+  padding 0
+  color inherit
+  cursor pointer
+
+a
+  text-decoration none
+  font-style normal
+  color inherit
+
+.layout
+  display flex
+  flex-direction column
+  min-height 100vh
+
+ul
+  padding-left 0
+  li
+    list-style none
+
+video::-webkit-media-controls
+  display none !important
+
+.hidden_header
+  display none

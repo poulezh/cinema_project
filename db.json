@@ -1,0 +1,38 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1", "body": "Lorem ipsum dolor sit amet" },
+    { "id": 2, "title": "Post 2", "body": "Consectetur adipiscing elit" },
+    { "id": 3, "title": "Post 3", "body": "Sed do eiusmod tempor incididunt" }
+  ],
+  "cards": {
+    "tabs":[
+      {"id": 1, "name": "Сейчас в кино", "tab": "today" },
+      {"id": 2, "name": "Скоро на экранах", "tab": "soon" }
+    ],
+    "today": {
+      "text": "Скоро на экранах",
+      "list": [
+        { "id": 1, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card1.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 2, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card2.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 3, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card3.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 4, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card1.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 5, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card2.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 6, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card3.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 7, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card1.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 8, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card2.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 9, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card3.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 10, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card1.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 11, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card2.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 12, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card3.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" }
+      ]
+    },
+    "soon": {
+      "text": "Сейчас в кино",
+      "list": [
+        { "id": 1, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card1.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 2, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card2.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" },
+        { "id": 3, "name": "Миссия НЛО", "src": "http://localhost:3000/img/card3.jpg", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/" }
+      ]
+    }
+  }
+}

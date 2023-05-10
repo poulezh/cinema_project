@@ -1,0 +1,50 @@
+{
+  "page": {
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": null
+    },
+    "footer": {
+      "name_project": "ООО «Баргузин Синема»",
+      "copyright": "© 2021 – ",
+      "pay": "",
+      "links": [
+        { "id": 1,"name": "Вакансии","url": "/", "disabled": false },
+        { "id": 2,"name": "Рекламодателям","url": "/", "disabled": false },
+        { "id": 3,"name": "Партнеры","url": "/", "disabled": false },
+        { "id": 4,"name": "Контакты","url": "/", "disabled": false },
+        { "id": 5,"name": "Карта сайта","url": "/", "disabled": false }
+      ]
+    },
+    "posters": [
+      {"id": 1, "src": "/img/poster1.jpg", "url": "/"},
+      {"id": 2, "src": "/img/poster2.jpg", "url": "/"},
+      {"id": 3, "src": "/img/poster1.jpg", "url": "/"}
+    ],
+    "socials": {
+      "text": "Мы в социальных сетях",
+      "links": [{"id": 1, "url": "/vk.com", "src": "/svg/vk.svg"}]
+    },
+    "card": {
+      "soon":{
+        "text": "Скоро на экранах",
+        "list": [
+          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"},
+          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"},
+          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"}
+
+        ]
+      },
+      "today":{
+        "text": "Сейчас в кино",
+        "list": [
+          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"},
+          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"},
+          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"}
+
+        ]
+      }
+    }
+  }
+}

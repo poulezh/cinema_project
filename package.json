@@ -1,0 +1,64 @@
+{
+  "name": "nuxt-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt & json-server --watch db.json --port 3001",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "json-server": "json-server --watch db.json --port 3001",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
+    "lint": "npm run lint:js && npm run lint:style",
+    "lint-fix": "eslint --fix --color --ext \".js,.vue\" --ignore-path .gitignore ."
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/svg-sprite": "^0.5.2",
+    "cookie-universal-nuxt": "^2.1.4",
+    "core-js": "^3.9.1",
+    "cssnano": "^4.1.11",
+    "debounce": "^1.2.1",
+    "json-server": "^0.17.3",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.15.3",
+    "nuxt-basic-auth-module": "^1.4.0",
+    "swiper": "^5.4.5",
+    "v-click-outside": "^3.1.2",
+    "v-mask": "^2.3.0",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-final-modal": "^2.4.1",
+    "vue-masonry-css": "^1.0.3",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "http-proxy-middleware": "^2.0.6",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  }
+}
