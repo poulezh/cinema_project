@@ -1,21 +1,21 @@
 const state = () => ({
-  cards: {},
+  news: {},
 });
 
 const getters = {};
 
 const actions = {
-  async getCardsPage({ commit }) {
-    const { data } = await this.$api.pages.cardsPage();
-    commit('setCardsPage', data);
+  async getNews({ commit }) {
+    const { data } = await this.$api.pages.newsList();
+    commit('setNewsList', data);
     return data;
   },
 };
 
 // mutations
 const mutations = {
-  setCardsPage(state, data) {
-    state.cards = data;
+  setNewsList(state, data) {
+    state.news = data;
   },
 };
 

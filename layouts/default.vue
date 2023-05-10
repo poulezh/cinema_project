@@ -8,14 +8,13 @@
 </template>
 
 <script>
-import BHeader from "~/components/organisms/BHeader/BHeader";
+import BHeader from '~/components/organisms/BHeader/BHeader';
 
 export default {
   components: {
     BHeader,
-  }
-}
-
+  },
+};
 </script>
 
 <style></style>

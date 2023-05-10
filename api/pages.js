@@ -8,4 +8,7 @@ export default (axios) => ({
   cardsPage() {
     return axios.get('http://localhost:3001/cards');
   },
+  newsList() {
+    return axios.get('http://localhost:3001/news');
+  },
 });

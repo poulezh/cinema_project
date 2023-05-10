@@ -3,6 +3,7 @@ import Vuex from 'vuex';
 import general from './pages/general';
 import posts from './pages/posts';
 import cards from './pages/cards';
+import news from './pages/news';
 
 Vue.use(Vuex);
 
@@ -21,6 +22,7 @@ const store = () =>
       general,
       posts,
       cards,
+      news,
     },
     state,
     strict: debug,
