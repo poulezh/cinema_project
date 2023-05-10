@@ -43,6 +43,7 @@
     "vue-awesome-swiper": "^4.1.1",
     "vue-final-modal": "^2.4.1",
     "vue-masonry-css": "^1.0.3",
+    "vue-screen": "^1.5.6",
     "vuelidate": "^0.7.6"
   },
   "devDependencies": {

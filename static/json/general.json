@@ -21,30 +21,6 @@
       {"id": 1, "src": "/img/poster1.jpg", "url": "/"},
       {"id": 2, "src": "/img/poster2.jpg", "url": "/"},
       {"id": 3, "src": "/img/poster1.jpg", "url": "/"}
-    ],
-    "socials": {
-      "text": "Мы в социальных сетях",
-      "links": [{"id": 1, "url": "/vk.com", "src": "/svg/vk.svg"}]
-    },
-    "card": {
-      "soon":{
-        "text": "Скоро на экранах",
-        "list": [
-          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"},
-          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"},
-          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"}
-
-        ]
-      },
-      "today":{
-        "text": "Сейчас в кино",
-        "list": [
-          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"},
-          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"},
-          {"id": 1, "name": "Миссия НЛО", "src": "", "format": "3D", "mem": true, "pushkard": true, "age": "12+", "url": "/"}
-
-        ]
-      }
-    }
+    ]
   }
 }
