@@ -13,7 +13,7 @@
 
 <script>
 import BPosterSlider from '~/components/atoms/BPosterSlider/BPosterSlider';
-import BCard from '~/components/atoms/BCard/BCard';
+import BCard from '~/components/molecules/BCard/BCard';
 import BTabs from '~/components/atoms/BTabs/BTabs';
 import BNewsBlock from '~/components/molecules/BNewsBlock/BNewsBlock';
 

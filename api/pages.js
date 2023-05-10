@@ -3,12 +3,15 @@ export default (axios) => ({
     return axios.get(`/json/general.json`);
   },
   postsPage() {
-    return axios.get('http://localhost:3001/posts');
+    return axios.get('/api/posts');
   },
   cardsPage() {
-    return axios.get('http://localhost:3001/cards');
+    return axios.get('/api/cards');
   },
   newsList() {
-    return axios.get('http://localhost:3001/news');
+    return axios.get('/api/news');
+  },
+  getNews(id) {
+    return axios.get(`/api/news/${id}`);
   },
 });

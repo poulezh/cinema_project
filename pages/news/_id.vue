@@ -2,8 +2,8 @@
   <div class="new-item">
     <div>
       news
-      <!-- <h2>{{ news.title }}</h2> -->
-      <!-- <p>{{ news.text }}</p> -->
+      <h2>{{ news.title }}</h2>
+      <p>{{ news.text }}</p>
     </div>
   </div>
 </template>
@@ -25,12 +25,10 @@ export default {
       default: () => {},
     },
   },
-  asyncData({ params, $axios }) {
-    console.log(params);
-    // const { data } = await $axios.get(`/http://localhost:3001/news/`);
-    return {
-      news: params,
-    };
+  async asyncData({ store, params }) {
+    const id = params.id;
+    await store.dispatch('news/getCurrentNews', id);
+    return { news: store.state.news.currentNews };
   },
   data() {
     return {};

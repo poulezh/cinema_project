@@ -1,21 +1,37 @@
 const state = () => ({
-  news: {},
+  news: [],
+  currentNews: {},
 });
 
 const getters = {};
 
 const actions = {
   async getNews({ commit }) {
-    const { data } = await this.$api.pages.newsList();
-    commit('setNewsList', data);
-    return data;
+    try {
+      const { data } = await this.$api.pages.newsList();
+      commit('setNewsList', data);
+      return data;
+    } catch (error) {
+      console.error(error);
+    }
+  },
+  async getCurrentNews({ commit }, id) {
+    try {
+      const { data } = await this.$api.pages.getNews(id);
+      commit('setCurrentNews', data);
+      return data;
+    } catch (error) {
+      console.error(error);
+    }
   },
 };
 
-// mutations
 const mutations = {
   setNewsList(state, data) {
     state.news = data;
+  },
+  setCurrentNews(state, data) {
+    state.currentNews = data;
   },
 };
 

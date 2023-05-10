@@ -71,20 +71,13 @@ export default {
   axios: {
     proxy: true,
   },
-  // proxy: {
-  //   '/json': { target: 'http://localhost:3001' },
-  //   '/api': {
-  //     target: 'http://localhost:3001',
-  //     pathRewrite: { '^/api/': '' }
-  //   },
-  //   '/ajax': { target: 'http://localhost:3001' }
-  // },
   proxy: {
     '/json': { target: process.env.NUXT_BASE_URL || 'http://localhost:3001' },
     '/api': {
-      target: process.env.api,
-      pathRewrite: { '': '' },
-      changeOrigin: true,
+      target: 'http://localhost:3001',
+      pathRewrite: {
+        '^/api/': '', 
+      },
     },
     '/ajax': { target: process.env.api, changeOrigin: true },
   },
