@@ -1,5 +1,5 @@
 <template>
-  <div class="news-list" :class="classList">
+  <div class="news-swiper" :class="{ _show: isShowNews }">
     <client-only>
       <swiper ref="swiper" :options="swiper" :auto-destroy="false" class="swiper">
         <swiper-slide v-for="item in data" :key="item.id" class="swiper__slide">
@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import additionalClassCSS from '~/utils/additionalClassCSS';
 import BNewsItem from '~/components/atoms/BNewsItem/BNewsItem';
 
 export default {
@@ -56,14 +55,8 @@ export default {
     };
   },
   computed: {
-    modClass() {
-      return additionalClassCSS(this.mod);
-    },
-    disableClass() {
-      return additionalClassCSS(this.disable ? 'disable' : '');
-    },
-    classList() {
-      return Object.assign({}, this.modClass, this.disableClass, this.errorClass);
+    isShowNews() {
+      return this.$store.state.ui.newsProps?.newsShow;
     },
   },
   methods: {},
@@ -71,6 +64,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.news-swiper
+  display none
+  &._show
+    display block
 .swiper
   &__slide
     width 520px

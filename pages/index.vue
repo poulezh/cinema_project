@@ -4,10 +4,9 @@
     <div class="container-mini">
       <b-tabs class="tabs" :tabs="tabs" @change="switchCard" />
     </div>
-    <masonry :cols="{ default: 6, 1400: 3, 1023: 2, 768: 1 }" :gutter="{ default: '2px' }">
+    <masonry :cols="{ default: 6, 1023: 4, 768: 2 }" :gutter="{ default: '2px' }">
       <b-card v-for="item in cards" :key="item.id" :data="item" :type="currentTab" />
     </masonry>
-    <b-news-block :data="newsList" class="news-list" />
   </div>
 </template>
 
@@ -15,7 +14,6 @@
 import BPosterSlider from '~/components/atoms/BPosterSlider/BPosterSlider';
 import BCard from '~/components/molecules/BCard/BCard';
 import BTabs from '~/components/atoms/BTabs/BTabs';
-import BNewsBlock from '~/components/molecules/BNewsBlock/BNewsBlock';
 
 export default {
   name: 'IndexPage',
@@ -23,12 +21,13 @@ export default {
     BPosterSlider,
     BCard,
     BTabs,
-    BNewsBlock,
   },
   async asyncData({ store, route }) {
+    store.dispatch('ui/setNewsProps', {
+      newsShow: true,
+    });
     const page = await store.dispatch('general/getGeneralPage');
     const cards = await store.dispatch('cards/getCardsPage');
-    const news = await store.dispatch('news/getNews');
     return {
       posters: page.posters,
       cardList: {
@@ -36,7 +35,6 @@ export default {
         soon: cards.soon.list,
       },
       tabs: cards.tabs,
-      newsList: news,
     };
   },
   data() {
@@ -61,6 +59,4 @@ export default {
 .main
   & .tabs
     margin 12px 0
-  & .news-list
-    margin-top 48px
 </style>

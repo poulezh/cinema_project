@@ -73,9 +73,10 @@ export default {
     height 48px
     fontSzLh(14, 20)
     border-radius 48px
-  +hover()
-    background $orange
-    transition(all)
   &._default
     background $red
+    transition(all)
+    +hover()
+      background $disable
+      transition(all)
 </style>

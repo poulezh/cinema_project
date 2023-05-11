@@ -5,6 +5,8 @@ import posts from './pages/posts';
 import cards from './pages/cards';
 import news from './pages/news';
 
+import ui from './ui';
+
 Vue.use(Vuex);
 
 const debug = process.env.NODE_ENV !== 'production';
@@ -23,6 +25,7 @@ const store = () =>
       posts,
       cards,
       news,
+      ui,
     },
     state,
     strict: debug,

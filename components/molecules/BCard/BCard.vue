@@ -4,7 +4,16 @@
       <div class="card__image">
         <img :src="data.src" alt="" />
       </div>
-      <div class="card__mem"></div>
+      <div class="card__mem">
+        <div v-if="data.mem" class="card__mem-item">
+          <div class="small">M</div>
+          <div class="full">Меморандум</div>
+        </div>
+        <div v-if="data.pushcard" class="card__mem-item">
+          <div class="small">П</div>
+          <div class="full">Пушкинская карта</div>
+        </div>
+      </div>
       <div class="card__info">
         <div class="card__info-name">{{ data.name }}</div>
         <div v-if="type === 'today'" class="card__info-btn"><b-button mod="default" to="/schedule"> Купить Билет</b-button></div>
@@ -43,7 +52,7 @@ export default {
     return {};
   },
   mounted() {
-    // console.log(this.data);
+    console.log(this.data);
   },
   methods: {},
 };
@@ -65,6 +74,13 @@ export default {
       transition-delay 0.5s
       transition-duration 0.5s
       bottom 0
+    & .card__mem
+      .small
+        display none
+      .full
+        display flex
+        justify-content flex-end
+        width 100%
   &__image
     border-radius 6px
     overflow hidden
@@ -88,4 +104,31 @@ export default {
       width: 100%;
       text-align: center;
       padding: 16px 0 18px;
+  &__mem
+    position absolute
+    top 12px
+    right 0
+    display flex
+    flex-direction column
+    align-items flex-end
+    gap 4px
+    &-item
+      padding 7px 8px
+      background $red
+      width fit-content
+      position relative
+      height 30px
+      &:before
+          width 0
+          height 0
+          content ''
+          position absolute
+          top 0
+          right 100%
+          border-left 7px solid transparent
+          border-bottom 30px solid #E7470B
+      .small
+        display block
+      .full
+        display none
 </style>

@@ -6,6 +6,11 @@
 export default {
   name: 'SchedulePage',
   components: {},
+  async asyncData({ store }) {
+    await store.dispatch('ui/setNewsProps', {
+      newsShow: false,
+    });
+  },
   data() {
     return {};
   },
