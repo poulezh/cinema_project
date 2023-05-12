@@ -2,12 +2,18 @@
   <div class="new-item container-mini">
     <h1 class="new-item__title">{{ news.title }}</h1>
     <div class="new-item__text" v-html="news.text"></div>
+    <BForm />
   </div>
 </template>
 
 <script>
+import BForm from '~/components/atoms/BForm/BForm';
+
 export default {
   name: 'BNewsItem',
+  components: {
+    BForm,
+  },
   props: {
     mod: {
       type: [Array, String],
