@@ -1,16 +1,16 @@
 <template>
   <div class="admin container-mini">
-    <BForm />
+    <BKinopoisk />
   </div>
 </template>
 
 <script>
-import BForm from '~/components/atoms/BForm/BForm';
+import BKinopoisk from '~/components/atoms/BKinopoisk/BKinopoisk';
 
 export default {
   name: 'BAdminPage',
   components: {
-    BForm,
+    BKinopoisk,
   },
   layout: 'admin',
   props: {
