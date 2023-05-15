@@ -14,14 +14,12 @@
           <nuxt-link v-if="!openSearch" to="/" class="header__menu-item">вернуть билет</nuxt-link>
         </div>
         <div v-if="openSearch" class="header__burger">
-          <div class="header__menu-item burger">...</div>
-          <div class="header__burger-menu">
-            <nuxt-link to="/schedule" class="header__menu-item">расписание</nuxt-link>
-            <nuxt-link to="/affiche" class="header__menu-item">афиша</nuxt-link>
-            <nuxt-link to="/about" class="header__menu-item">о кинотеатре</nuxt-link>
-            <nuxt-link to="/faq" class="header__menu-item">вопрос-ответ</nuxt-link>
-            <nuxt-link to="/help" class="header__menu-item">справка</nuxt-link>
+          <div class="header__menu-item burger" @click="toggleBurgerMenu">...</div>
+          <div v-if="openBurger" class="header__burger-menu">
             <nuxt-link to="/" class="header__menu-item">вернуть билет</nuxt-link>
+            <nuxt-link to="/help" class="header__menu-item">справка</nuxt-link>
+            <nuxt-link to="/faq" class="header__menu-item">вопрос-ответ</nuxt-link>
+            <nuxt-link to="/about" class="header__menu-item">о кинотеатре</nuxt-link>
           </div>
         </div>
         <div class="header__search" :class="{ _search: openSearch }">
@@ -47,12 +45,16 @@ export default {
     return {
       isMenu: false,
       openSearch: false,
+      openBurger: false,
     };
   },
   computed: {},
   methods: {
     search() {
       this.openSearch = !this.openSearch;
+    },
+    toggleBurgerMenu() {
+      this.openBurger = !this.openBurger;
     },
   },
 };
@@ -86,22 +88,37 @@ export default {
       +hover()
         background $red
         transition(all)
+      @media $laptop
+        &:nth-child(n + 5)
+          display none
       @media $mdMinus
         fontSzLh(16,16)
         padding 0 14px
+        &:nth-child(n + 4)
+          display none
+      @media $smMinus
+        fontSzLh(16,16)
+        padding 0 14px
+        &:nth-child(n + 3)
+          display none
   &__burger
-    transition(all)
-    & .burger
-      +hover()
-        transition(all)
-        background $greenLight
-        .header__burger-menu
-          display flex
-          flex-direction column
-          position absolute
-
     &-menu
-      display none
+      max-height 240px
+      position absolute
+      z-index 99
+      background $dark
+      overflow auto
+      & .header__menu-item:nth-child(n + 2)
+            display none
+      @media $laptop
+        & .header__menu-item:nth-child(-n + 2)
+          display flex
+      @media $mdMinus
+        & .header__menu-item:nth-child(-n + 3)
+          display flex
+      @media $smMinus
+        & .header__menu-item:nth-child(-n + 4)
+          display flex
   &__search
     cursor pointer
     height 80px
