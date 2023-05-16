@@ -1,6 +1,6 @@
 <template>
   <div class="admin container-mini">
-    <BKinopoisk />
+    <BKinopoisk :tabs="tabs" />
   </div>
 </template>
 
@@ -31,6 +31,10 @@ export default {
     await store.dispatch('ui/setNewsProps', {
       newsShow: false,
     });
+    const tabsList = await store.dispatch('cards/getCardsPage');
+    return {
+      tabs: tabsList,
+    };
   },
   data() {
     return {};

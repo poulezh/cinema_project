@@ -6,7 +6,13 @@ export default (axios) => ({
     return axios.get('/api/posts');
   },
   cardsPage() {
-    return axios.get('/api/cards');
+    return axios.get('/api/tabs');
+  },
+  todayList() {
+    return axios.get('/api/today');
+  },
+  soonList() {
+    return axios.get('/api/soon');
   },
   newsList() {
     return axios.get('/api/news');

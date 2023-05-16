@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card__wrap">
       <div class="card__image">
-        <img :src="data.src" alt="" />
+        <img :src="data.src || data.poster.url" alt="" />
       </div>
       <div class="card__mem">
         <div v-if="data.mem" class="card__mem-item">

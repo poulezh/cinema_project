@@ -28,13 +28,18 @@ export default {
     });
     const page = await store.dispatch('general/getGeneralPage');
     const cards = await store.dispatch('cards/getCardsPage');
+    const todayList = await store.dispatch('films/getTodayMovie');
+    const soonList = await store.dispatch('films/getSoonMovie');
+
+    // console.log('today', todayList);
+
     return {
       posters: page.posters,
       cardList: {
-        today: cards.today.list,
-        soon: cards.soon.list,
+        today: todayList,
+        soon: soonList,
       },
-      tabs: cards.tabs,
+      tabs: cards,
     };
   },
   data() {

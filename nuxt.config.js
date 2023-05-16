@@ -39,6 +39,7 @@ export default {
     {src: '@/plugins/directives.js'},
     {src: '@/plugins/vuelidate.js' },
     {src: '@/plugins/vue-mask.js',  mode: 'client' },
+    {src: '@/plugins/vue-datepicker', ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

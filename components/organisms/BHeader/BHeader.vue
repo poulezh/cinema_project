@@ -9,17 +9,15 @@
           <nuxt-link to="/schedule" class="header__menu-item">расписание</nuxt-link>
           <nuxt-link to="/affiche" class="header__menu-item">афиша</nuxt-link>
           <nuxt-link to="/about" class="header__menu-item">о кинотеатре</nuxt-link>
-          <nuxt-link to="/faq" class="header__menu-item">вопрос-ответ</nuxt-link>
-          <nuxt-link to="/help" class="header__menu-item">справка</nuxt-link>
-          <nuxt-link v-if="!openSearch" to="/" class="header__menu-item">вернуть билет</nuxt-link>
+          <nuxt-link v-if="!openSearch" to="/admin" class="header__menu-item">админка</nuxt-link>
         </div>
         <div v-if="openSearch" class="header__burger">
           <div class="header__menu-item burger" @click="toggleBurgerMenu">...</div>
           <div v-if="openBurger" class="header__burger-menu">
-            <nuxt-link to="/" class="header__menu-item">вернуть билет</nuxt-link>
-            <nuxt-link to="/help" class="header__menu-item">справка</nuxt-link>
-            <nuxt-link to="/faq" class="header__menu-item">вопрос-ответ</nuxt-link>
+            <nuxt-link to="/admin" class="header__menu-item">админка</nuxt-link>
             <nuxt-link to="/about" class="header__menu-item">о кинотеатре</nuxt-link>
+            <nuxt-link to="/affiche" class="header__menu-item">афиша</nuxt-link>
+            <nuxt-link to="/schedule" class="header__menu-item">расписание</nuxt-link>
           </div>
         </div>
         <div class="header__search" :class="{ _search: openSearch }">

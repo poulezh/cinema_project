@@ -17,7 +17,7 @@
     </ul>
     <div v-if="popup" class="popup">
       <div class="popup__content">
-        <span>{{ popupContent }}</span>
+        <b-form :data="popupContent" :tabs="tabs" @close-modal="popup = false" />
         <span class="popup__close" @click="popup = false">X</span>
       </div>
     </div>
@@ -26,8 +26,25 @@
 
 <script>
 import axios from 'axios';
+import BForm from '~/components/atoms/BForm/BForm';
+// import BTabs from '~/components/atoms/BTabs/BTabs';
+// import BSelect from '~/components/atoms/BSelect/BSelect';
+// import BButton from '~/components/atoms/BButton/BButton';
 
 export default {
+  name: 'BKinopoisk',
+  components: {
+    BForm,
+    // BTabs,
+    // BButton,
+    // BSelect,
+  },
+  props: {
+    tabs: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data() {
     return {
       movieId: '',
@@ -39,6 +56,22 @@ export default {
     };
   },
   computed: {
+    // availableTimes() {
+    //   const sessionTimes = [];
+    //   const movieLength = this.movieLength;
+    //   const breakTime = 15;
+    //   const startHour = Math.floor(this.startTime / 60);
+    //   const endHour = Math.floor(this.endTime / 60);
+
+    //   for (let hour = startHour; hour <= endHour; hour++) {
+    //     for (let minute = 0; minute <= 60 - movieLength - breakTime; minute += movieLength + breakTime) {
+    //       const time = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+    //       sessionTimes.push(time);
+    //     }
+    //   }
+
+    //   return sessionTimes;
+    // },
     movieName() {
       if (this.movieData) {
         return this.movieData.name;
@@ -67,10 +100,7 @@ export default {
       try {
         const response = await axios.get('http://localhost:3001/movies');
         const moviesList = response.data.map((movie) => {
-          return {
-            id: movie.id,
-            name: movie.name,
-          };
+          return movie;
         });
         this.moviesList = moviesList;
       } catch (error) {
@@ -79,7 +109,8 @@ export default {
     },
     async fetchMovieData() {
       const apiKey = '29Q3S0H-N6VM2K4-M50XC7W-JCYEWWG';
-      const apiUrl = `https://api.kinopoisk.dev/v1/movie/${this.movieId}`;
+      const apiUrl = `https://api.kinopoisk.dev/v1.3/movie/${this.movieId}`;
+      // const apiUrl = `https://api.kinopoisk.dev/v1.3/movie/search?page=1&limit=10&query=${this.movieId}`;
 
       try {
         const response = await axios.get(apiUrl, {
@@ -89,7 +120,6 @@ export default {
           },
         });
 
-        console.log(response.data);
         const movieData = response.data;
         const posterUrl = movieData.poster.url;
 
@@ -140,7 +170,6 @@ export default {
           videos: movieData.videos,
           votes: movieData.votes,
           poster: movieData.poster,
-          posterUrl: posterDataUrl,
         };
         await axios.post('http://localhost:3001/movies', dbData);
 
@@ -169,7 +198,9 @@ export default {
   },
 };
 </script>
+
 <style lang="stylus" scoped>
+
 li
   +hover()
     .movie
@@ -190,6 +221,8 @@ li
     bottom 0
     z-index 8
     opacity .5
+  & h3
+    margin-bottom 24px
   &__content
     max-width 1280px
     width 100%
@@ -203,6 +236,11 @@ li
     z-index 9
     display flex
     justify-content space-between
+    & .form
+      display flex
+      flex-direction column
+      gap 32px
+      padding 32px
   &__close
     padding 12px
     position absolute
@@ -211,4 +249,6 @@ li
     +hover()
       cursor pointer
       color $red
+  &__time
+    display flex
 </style>

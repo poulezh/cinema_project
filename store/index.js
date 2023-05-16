@@ -4,6 +4,7 @@ import general from './pages/general';
 import posts from './pages/posts';
 import cards from './pages/cards';
 import news from './pages/news';
+import films from './pages/films';
 
 import ui from './ui';
 
@@ -25,6 +26,7 @@ const store = () =>
       posts,
       cards,
       news,
+      films,
       ui,
     },
     state,
