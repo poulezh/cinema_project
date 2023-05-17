@@ -2,7 +2,7 @@
   <div class="affiche__item">
     <div class="affiche__item-left">
       <div class="img">
-        <a href="/filmbase/3415/"><img :src="data.poster.url" alt="Мама мафия (16+)" /></a>
+        <a href="/filmbase/3415/"><img :src="data.poster.url" :alt="data.name" /></a>
       </div>
     </div>
     <div class="affiche__item-right">
@@ -18,8 +18,8 @@
         <div class="item year">Год: {{ data.year }}</div>
         <div class="item duration">Длительность: {{ formattedDate }}</div>
         <div class="item country">
-          Страны:
-          <span v-for="(country, inx) in data.countries" :key="inx"> {{ country.name }}</span>
+          {{ declOfNumCountry }}:
+          <span> {{ formattedCountry }}</span>
         </div>
       </div>
       <div class="film-table">
@@ -29,28 +29,31 @@
         </div>
         <div class="film-table__item">
           <div class="film-table__name">Жанр</div>
-          <div class="film-table__info">{{ data.genres }}</div>
+          <div class="film-table__info">{{ formattedGenre }}</div>
         </div>
       </div>
-      <div class="tab_content show tab__desc">
-        <div class="story">{{ data.description }}</div>
-      </div>
+      <div class="story">{{ data.description }}</div>
     </div>
   </div>
 </template>
 
 <script>
 import formatDate from '~/utils/formatDate';
+import declOfNum from '~/utils/declOfNum';
+import convertToString from '~/utils/convertToString';
+import BTabs from '~/components/atoms/BTabs/BTabs';
 
 export default {
   name: 'BAfficheItem',
+  components: {
+    BTabs,
+  },
   props: {
     data: {
       type: Object,
       default: () => {},
     },
   },
-
   data() {
     return {
       tabs: [
@@ -64,9 +67,20 @@ export default {
     formattedDate() {
       return formatDate(this.data.movieLength);
     },
+    formattedCountry() {
+      return convertToString(this.data.countries);
+    },
+    formattedGenre() {
+      return convertToString(this.data.genres);
+    },
+    declOfNumCountry() {
+      return declOfNum(this.data.countries.length, ['Страна', 'Страны', 'Страны']);
+    },
   },
 
-  mounted() {},
+  mounted() {
+    console.log(this.data.countries);
+  },
 
   methods: {},
 };
@@ -75,15 +89,14 @@ export default {
 <style lang="stylus" scoped>
 .affiche
   &__item
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    border-radius: 4px;
-    background-color: transparent;
-    padding: 0;
-    margin: 25px 0 15px;
+    width 100%
+    display flex
+    align-items flex-start
+    justify-content flex-start
+    border-radius 4px
+    background-color transparent
+    padding 0
+    margin 25px 0 64px
     &-left
       width 224px
       flex-shrink 0
@@ -98,11 +111,12 @@ export default {
       max-width 900px
       & .film
         &-title
-          font-size: 46px;
-          line-height: 120%;
-          color: #fff;
+          fontSzLh(46,38)
+          color: $white;
           margin: 0;
+          transition(all)
           +hover()
+            transition(all)
             text-decoration underline
         &-links
           margin-top 30px
@@ -125,7 +139,7 @@ export default {
       display flex
       padding 24px 0
       align-items center
-      border-bottom 1px solid #3a3a3a
+      border-bottom 1px solid $border
     &__name
       width 100%
       max-width 220px

@@ -1,35 +1,32 @@
 <template>
   <div class="work-area">
-    <div class="title">Афиша</div>
-    <div class="tab-page">
-      <b-tabs :tabs="tabsPage" mod="affiche" @change="switchMovies" />
-    </div>
+    <b-top-page :tabs="tabsPage" />
     <div class="affiche">
       <div class="affiche__content">
-        <div v-for="item in movies" :key="item.id" class="affiche__wrap">
-          <BAfficheItem :data="item" />
-        </div>
+        <b-affiche-item v-for="item in movies" :key="item.id" :data="item" />
       </div>
+      <b-pagination :page="page" :current-page.sync="currentPage" />
     </div>
   </div>
 </template>
 
 <script>
 import BAfficheItem from '~/components/organisms/BAfficheItem/BAfficheItem';
-import BTabs from '~/components/atoms/BTabs/BTabs';
+import BTopPage from '~/components/molecules/BTopPage/BTopPage';
+import BPagination from '~/components/atoms/BPagination/BPagination';
 
 export default {
   name: 'AffichePage',
   components: {
     BAfficheItem,
-    BTabs,
+    BTopPage,
+    BPagination,
   },
   async asyncData({ store }) {
     store.dispatch('ui/setNewsProps', {
       newsShow: true,
     });
     const page = await store.dispatch('affiche/getAffichePage');
-    console.log(page);
     return {
       page,
     };
@@ -47,11 +44,15 @@ export default {
       ],
       additionally: false,
       description: false,
+      currentPage: 1,
     };
   },
   computed: {
     movies() {
-      return [...this.page].reverse();
+      const movies = [...this.page].reverse();
+      const startIndex = (this.currentPage - 1) * 10;
+      const endIndex = startIndex + 10;
+      return movies.slice(startIndex, endIndex);
     },
   },
   methods: {
@@ -68,27 +69,11 @@ export default {
   width 100%
   box-sizing border-box
   margin 0 auto
-  & .title
-    font-size 36px
-    line-height 40px
-    text-align center
-    padding 40px 0 30px
-    margin 0
-  & .tab-page
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0;
-    margin: 0;
-    background: #222222;
-    border-radius: 12px 12px 0 0;
-    overflow hidden
 .affiche
   position: relative;
   padding: 1px 40px 1px;
   background-color: $anthracite;
-  border-radius: 12px;
+  border-radius: 0 0 12px 12px;
   margin: 0;
   &__content
     border-radius: 0 0 4px 4px

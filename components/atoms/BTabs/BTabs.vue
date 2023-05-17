@@ -102,7 +102,7 @@ export default {
       fontSzLh(14px, 24px)
       height 48px
     &._active
-      background $red
+      background $orange
       color $green
       pointer-events none
       transition(all)

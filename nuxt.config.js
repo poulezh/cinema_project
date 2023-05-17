@@ -9,7 +9,7 @@ export default {
     kinopoiskToken: process.env.KINOPOISK_TOKEN,
   },
   head: {
-    title: 'nuxt-boilerplate',
+    title: 'BumBamsinema',
     htmlAttrs: {
       lang: 'ru',
     },

@@ -7,6 +7,7 @@
     <masonry :cols="{ default: 6, 1023: 4, 768: 2 }" :gutter="{ default: '2px' }">
       <b-card v-for="item in cards" :key="item.id" :data="item" :type="currentTab" />
     </masonry>
+    <b-no-films v-if="cards.length < 1" />
   </div>
 </template>
 
@@ -14,6 +15,7 @@
 import BPosterSlider from '~/components/atoms/BPosterSlider/BPosterSlider';
 import BCard from '~/components/molecules/BCard/BCard';
 import BTabs from '~/components/atoms/BTabs/BTabs';
+import BNoFilms from '~/components/atoms/BNoFilms/BNoFilms';
 
 export default {
   name: 'IndexPage',
@@ -21,6 +23,7 @@ export default {
     BPosterSlider,
     BCard,
     BTabs,
+    BNoFilms,
   },
   async asyncData({ store, route }) {
     store.dispatch('ui/setNewsProps', {
@@ -30,8 +33,6 @@ export default {
     const cards = await store.dispatch('cards/getCardsPage');
     const todayList = await store.dispatch('films/getTodayMovie');
     const soonList = await store.dispatch('films/getSoonMovie');
-
-    // console.log('today', todayList);
 
     return {
       posters: page.posters,

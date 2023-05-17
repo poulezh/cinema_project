@@ -46,6 +46,6 @@ export default {
 li
   +hover()
     .movie
-      color $red
+      color $orange
       cursor pointer
 </style>

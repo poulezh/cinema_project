@@ -39,6 +39,20 @@ export default {
         loop: true,
         slidesPerView: 4,
         spaceBetween: 4,
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          1024: {
+            slidesPerView: 2,
+          },
+          1280: {
+            slidesPerView: 3,
+          },
+          1920: {
+            slidesPerView: 4,
+          },
+        },
         on: {
           setTranslate: () => {
             /* Hack for recalculating slider width with negative margins */

@@ -8,9 +8,6 @@
       "countries": [
         {
           "name": "Новая Зеландия"
-        },
-        {
-          "name": "США"
         }
       ],
       "description": "Сказания о Средиземье — это хроника Великой войны за Кольцо, длившейся не одну тысячу лет. Тот, кто владел Кольцом, получал неограниченную власть, но был обязан служить злу. \n\nТихая деревня, где живут хоббиты. Придя на 111-й день рождения к своему старому другу Бильбо Бэггинсу, волшебник Гэндальф начинает вести разговор о кольце, которое Бильбо нашел много лет назад. Это кольцо принадлежало когда-то темному властителю Средиземья Саурону, и оно дает большую власть своему обладателю. Теперь Саурон хочет вернуть себе власть над Средиземьем. Бильбо отдает Кольцо племяннику Фродо, чтобы тот отнёс его к Роковой Горе и уничтожил.",
@@ -795,9 +792,6 @@
       "ageRating": 16,
       "countries": [
         {
-          "name": "США"
-        },
-        {
           "name": "Германия"
         }
       ],
@@ -1566,6 +1560,1889 @@
       "poster": {
         "url": "https://st.kp.yandex.net/images/film_big/555.jpg",
         "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_555.jpg"
+      }
+    },
+    {
+      "id": 998243,
+      "name": "Кролик",
+      "ageRating": null,
+      "countries": [
+        {
+          "name": "Австралия"
+        }
+      ],
+      "description": "Через год после исчезновения сестры-близняшки Моди все еще преследуют реалистичные видения ее жестокого похищения. Хотя ей никто не верит, девушка все же убеждена, что сестра жива. Объединившись с бойфрендом сестры и полицейским, расследовавшим дело об исчезновении, Моди следует за своими видениями, которые приводят троицу в заброшенный трейлерный парк. Вскоре выяснится, что за похищением стоит некая тайная организация.",
+      "movieLength": 103,
+      "budget": {},
+      "genres": [
+        {
+          "name": "триллер"
+        },
+        {
+          "name": "детектив"
+        }
+      ],
+      "persons": [
+        {
+          "id": 234418,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_234418.jpg",
+          "name": "Верле Батенс"
+        },
+        {
+          "id": 1508992,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1508992.jpg",
+          "name": "Аделаида Клеменс"
+        },
+        {
+          "id": 2073291,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2073291.jpg",
+          "name": "Алекс Расселл"
+        },
+        {
+          "id": 972521,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_972521.jpg",
+          "name": "Джонатон Пасвольски"
+        },
+        {
+          "id": 730263,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_730263.jpg",
+          "name": "Чарльз Майер"
+        },
+        {
+          "id": 3712734,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3712734.jpg",
+          "name": null
+        },
+        {
+          "id": 1421061,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1421061.jpg",
+          "name": "Майкл Даррен"
+        },
+        {
+          "id": 1759757,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1759757.jpg",
+          "name": "Люк Шэнэхэн"
+        }
+      ],
+      "premiere": {
+        "world": "2017-08-05T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 4.823,
+        "imdb": 4.9,
+        "filmCritics": 6.8,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 2017,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/v/VKH34Q1LaxY",
+            "name": "Трейлер",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=RlckioSK2ys",
+            "name": "Трейлер №2",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/embed/o-kjbU8lWL8",
+            "name": "Rabbit (2018) | Official Trailer HD",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 217,
+        "imdb": 631,
+        "filmCritics": 14,
+        "russianFilmCritics": 0,
+        "await": 23
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/998243.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_998243.jpg"
+      }
+    },
+    {
+      "id": 4374,
+      "name": "Пираты Карибского моря: Проклятие Черной жемчужины",
+      "ageRating": 12,
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Жизнь харизматичного авантюриста, капитана Джека Воробья, полная увлекательных приключений, резко меняется, когда его заклятый враг капитан Барбосса похищает корабль Джека Черную Жемчужину, а затем нападает на Порт Ройал и крадет прекрасную дочь губернатора Элизабет Свонн.\n\nДруг детства Элизабет Уилл Тернер вместе с Джеком возглавляет спасательную экспедицию на самом быстром корабле Британии, чтобы вызволить девушку и заодно отобрать у злодея Черную Жемчужину. Вслед за этой парочкой отправляется амбициозный коммодор Норрингтон, который к тому же числится женихом Элизабет.\n\nОднако Уилл не знает, что над Барбоссой висит вечное проклятие, при лунном свете превращающее его с командой в живых скелетов. Проклятье будет снято лишь тогда, когда украденное золото Ацтеков будет возвращено пиратами на старое место.",
+      "movieLength": 143,
+      "budget": {
+        "value": 140000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "приключения"
+        }
+      ],
+      "persons": [
+        {
+          "id": 6245,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6245.jpg",
+          "name": "Джонни Депп"
+        },
+        {
+          "id": 24683,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24683.jpg",
+          "name": "Джеффри Раш"
+        },
+        {
+          "id": 30875,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_30875.jpg",
+          "name": "Орландо Блум"
+        },
+        {
+          "id": 24302,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24302.jpg",
+          "name": "Кира Найтли"
+        },
+        {
+          "id": 3695,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3695.jpg",
+          "name": "Джек Девенпорт"
+        },
+        {
+          "id": 8630,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_8630.jpg",
+          "name": "Кевин МакНэлли"
+        },
+        {
+          "id": 608586,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_608586.jpg",
+          "name": "Клаус Бадельт"
+        },
+        {
+          "id": 30870,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_30870.jpg",
+          "name": "Гор Вербински"
+        }
+      ],
+      "premiere": {
+        "world": "2003-06-28T00:00:00.000Z",
+        "russia": "2003-08-20T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 8.373,
+        "imdb": 8.1,
+        "filmCritics": 7.1,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 2003,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/v/0Z1XpfbuZOA",
+            "name": "Трейлер",
+            "site": "youtube"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/530?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Тизер",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=MWSPV5xKUDg",
+            "name": "Трейлер (русский язык)",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/embed/naQr0uTrH_s",
+            "name": "Pirates of the Caribbean: The Curse of the Black Pearl Official Trailer 1 (2003) HD",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/0xxLhqjbB2Y",
+            "name": "Проклятие Чёрной жемчужины - Трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 874933,
+        "imdb": 1149359,
+        "filmCritics": 220,
+        "russianFilmCritics": 2,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/4374.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_4374.jpg"
+      }
+    },
+    {
+      "id": 102124,
+      "name": "Пираты Карибского моря: На краю света",
+      "ageRating": 12,
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Новые приключения Джека Воробья и его друзей Уилла Тернера и Элизабет Суонн. На этот раз Уиллу и Элизабет придется объединиться с самим Капитаном Барбоссой для того, чтобы отправиться на край света и спасти своего друга — Джека. Ситуация осложняется тем, что Элизабет попадает к сингапурским пиратам…",
+      "movieLength": 169,
+      "budget": {
+        "value": 300000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "фэнтези"
+        }
+      ],
+      "persons": [
+        {
+          "id": 6245,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6245.jpg",
+          "name": "Джонни Депп"
+        },
+        {
+          "id": 24683,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24683.jpg",
+          "name": "Джеффри Раш"
+        },
+        {
+          "id": 30875,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_30875.jpg",
+          "name": "Орландо Блум"
+        },
+        {
+          "id": 24302,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24302.jpg",
+          "name": "Кира Найтли"
+        },
+        {
+          "id": 6054,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6054.jpg",
+          "name": "Том Холландер"
+        },
+        {
+          "id": 207,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_207.jpg",
+          "name": "Билл Найи"
+        },
+        {
+          "id": 50590,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_50590.jpg",
+          "name": "Ханс Циммер"
+        },
+        {
+          "id": 30870,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_30870.jpg",
+          "name": "Гор Вербински"
+        }
+      ],
+      "premiere": {
+        "world": "2007-05-19T00:00:00.000Z",
+        "russia": "2007-05-24T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 8.06,
+        "imdb": 7.1,
+        "filmCritics": 5.4,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 2007,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/HKSZtp_OGHY",
+            "name": "Pirates of the Caribbean: At World's End (2007) Official Trailer #1 - Johnny Depp Movie HD",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/TV0j8S7JUpA",
+            "name": "Пираты Карибского моря 3: На краю Света (2007) — русский трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/xkBp4W-BTMo",
+            "name": "Пираты Карибского моря: На краю света  - Трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 545819,
+        "imdb": 664792,
+        "filmCritics": 227,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/102124.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_102124.jpg"
+      }
+    },
+    {
+      "id": 161242,
+      "name": "Зена — королева воинов",
+      "ageRating": 16,
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "История о временах, когда всем управляли Боги, которые ни в грош не ставили человеческую жизнь. В эти тёмные времена появляется непобедимая и бесстрашная воительница, которая приходит на помощь всем нуждающимся, и имя ей - Зена.",
+      "movieLength": null,
+      "budget": {},
+      "genres": [
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "драма"
+        },
+        {
+          "name": "приключения"
+        }
+      ],
+      "persons": [
+        {
+          "id": 7576,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7576.jpg",
+          "name": "Люси Лоулесс"
+        },
+        {
+          "id": 98066,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_98066.jpg",
+          "name": "Рене О’Коннор"
+        },
+        {
+          "id": 24146,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24146.jpg",
+          "name": "Тед Рэйми"
+        },
+        {
+          "id": 112128,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_112128.jpg",
+          "name": "Кевин Смит"
+        },
+        {
+          "id": 20765,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_20765.jpg",
+          "name": "Хадсон Лейк"
+        },
+        {
+          "id": 32388,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_32388.jpg",
+          "name": "Карл Урбан"
+        },
+        {
+          "id": 611357,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_611357.jpg",
+          "name": "Джозеф ЛоДука"
+        },
+        {
+          "id": 72576,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_72576.jpg",
+          "name": "Гарт Максвелл"
+        }
+      ],
+      "premiere": {
+        "world": "1995-09-04T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.186,
+        "imdb": 6.7,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1995,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/v/wmB1sO-CgFo",
+            "name": "Русский ТВ-ролик",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/rZmqtxBfSBk",
+            "name": "Трейлер",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/BIQKqU7X8-s",
+            "name": "Вступительные титры  (сезон 1)",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/embed/VvwtBohkgto",
+            "name": "Xena, the Warrior Princess - Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 38511,
+        "imdb": 46487,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/161242.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_161242.jpg"
+      }
+    },
+    {
+      "id": 669264,
+      "name": "По лезвию бритвы",
+      "ageRating": null,
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "description": "1943 год. В оккупированный украинский город Ровно приезжает немецкий офицер Пауль Зиберт, который быстро завоевывает сердца местных красавиц и дружбу немецких офицеров. Он часто появляется в гостином доме пани Лёли, куда офицеры любят приходить, чтобы отдохнуть. На самом деле, Пауль Зиберт — советский разведчик Николай Гуснецов, а пани Лёля — его соратница Лидия Лозинская. Вместе разведчики собирают сведения для партизанского отряда и военного командования СССР. Кроме этого, Гуснецов занимается физической ликвидацией высоких чинов немецкого командования.",
+      "movieLength": null,
+      "budget": {
+        "value": 2000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "военный"
+        }
+      ],
+      "persons": [
+        {
+          "id": 1235212,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1235212.jpg",
+          "name": "Владислав Резник"
+        },
+        {
+          "id": 968987,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_968987.jpg",
+          "name": "Светлана Антонова"
+        },
+        {
+          "id": 584125,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_584125.jpg",
+          "name": "Сергей Угрюмов"
+        },
+        {
+          "id": 464051,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_464051.jpg",
+          "name": "Егор Баринов"
+        },
+        {
+          "id": 1620564,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1620564.jpg",
+          "name": "Роман Богданов"
+        },
+        {
+          "id": 1479954,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1479954.jpg",
+          "name": "Владимир Щербаков"
+        },
+        {
+          "id": 1865421,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1865421.jpg",
+          "name": "Илья Спивак"
+        },
+        {
+          "id": 1845525,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1845525.jpg",
+          "name": "Сергей Кожевников"
+        }
+      ],
+      "premiere": {
+        "world": "2014-02-24T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 6.328,
+        "imdb": 6.9,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 2013,
+      "videos": {
+        "trailers": [],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 1248,
+        "imdb": 16,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/669264.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_669264.jpg"
+      }
+    },
+    {
+      "id": 435,
+      "name": "Зеленая миля",
+      "ageRating": 16,
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Пол Эджкомб — начальник блока смертников в тюрьме «Холодная гора», каждый из узников которого однажды проходит «зеленую милю» по пути к месту казни. Пол повидал много заключённых и надзирателей за время работы. Однако гигант Джон Коффи, обвинённый в страшном преступлении, стал одним из самых необычных обитателей блока.",
+      "movieLength": 189,
+      "budget": {
+        "value": 60000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "криминал"
+        }
+      ],
+      "persons": [
+        {
+          "id": 9144,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_9144.jpg",
+          "name": "Том Хэнкс"
+        },
+        {
+          "id": 12759,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_12759.jpg",
+          "name": "Дэвид Морс"
+        },
+        {
+          "id": 22527,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22527.jpg",
+          "name": "Бонни Хант"
+        },
+        {
+          "id": 677,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_677.jpg",
+          "name": "Майкл Кларк Дункан"
+        },
+        {
+          "id": 20664,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_20664.jpg",
+          "name": "Джеймс Кромуэлл"
+        },
+        {
+          "id": 8989,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_8989.jpg",
+          "name": "Майкл Джитер"
+        },
+        {
+          "id": 608629,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_608629.jpg",
+          "name": "Томас Ньюман"
+        },
+        {
+          "id": 24262,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24262.jpg",
+          "name": "Фрэнк Дарабонт"
+        }
+      ],
+      "premiere": {
+        "world": "1999-12-06T00:00:00.000Z",
+        "russia": "2000-04-18T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 9.073,
+        "imdb": 8.6,
+        "filmCritics": 6.8,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1999,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/Bg7epsq0OIQ",
+            "name": "Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/TODt_q-_4C4",
+            "name": "Зеленая миля (1999) — русский трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 889104,
+        "imdb": 1330453,
+        "filmCritics": 136,
+        "russianFilmCritics": 1,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/435.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_435.jpg"
+      }
+    },
+    {
+      "id": 575197,
+      "name": "Клоун",
+      "ageRating": 18,
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Канада"
+        }
+      ],
+      "description": "Любящий отец специально для дня рождения сына находит костюм клоуна, надевает его и выступает на празднике к радости детей. Но он и не подозревал, что снять клоунские одежды окажется не так просто - на костюм наложено проклятие, которое превращает его владельца в адского пожирателя детей.",
+      "movieLength": 100,
+      "budget": {
+        "value": 1500000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "ужасы"
+        },
+        {
+          "name": "триллер"
+        }
+      ],
+      "persons": [
+        {
+          "id": 384391,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_384391.jpg",
+          "name": "Энди Пауэрс"
+        },
+        {
+          "id": 30100,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_30100.jpg",
+          "name": "Лаура Аллен"
+        },
+        {
+          "id": 6237,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6237.jpg",
+          "name": "Петер Стормаре"
+        },
+        {
+          "id": 2991243,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2991243.jpg",
+          "name": "Кристиан Дистефано"
+        },
+        {
+          "id": 68181,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_68181.jpg",
+          "name": "Чак Шамата"
+        },
+        {
+          "id": 34420,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_34420.jpg",
+          "name": "Элизабет Уитмер"
+        },
+        {
+          "id": 803899,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_803899.jpg",
+          "name": "Мэтт Велигдан"
+        },
+        {
+          "id": 244443,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_244443.jpg",
+          "name": "Джон Уоттс"
+        }
+      ],
+      "premiere": {
+        "world": "2014-11-13T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 5.3,
+        "imdb": 5.7,
+        "filmCritics": 4.8,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 2013,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/133589?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер №2",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=coQnQ-4quMs",
+            "name": "Британский трейлер",
+            "site": "youtube"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/134046?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер №2 (русский язык)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=39Je7N2J9MQ",
+            "name": "Трейлер",
+            "site": "youtube"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 5667,
+        "imdb": 25168,
+        "filmCritics": 27,
+        "russianFilmCritics": 0,
+        "await": 399
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/575197.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_575197.jpg"
+      }
+    },
+    {
+      "id": 18440,
+      "name": "Дрожь земли",
+      "ageRating": 16,
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Сезонные разнорабочие Вэл Макки и Эрл Бассетт решают покинуть городок Перфекшн в штате Невада, но загадочные подземные толчки мешают их отъезду. С помощью студентки-сейсмолога они выясняют, что городок наводнен гигантскими плотоядными червями, обитающими под землей. Теперь кучке храбрецов предстоит вступить в битву с исполинскими тварями, которые не прочь полакомиться людьми.",
+      "movieLength": 96,
+      "budget": {
+        "value": 11000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "ужасы"
+        },
+        {
+          "name": "комедия"
+        },
+        {
+          "name": "боевик"
+        }
+      ],
+      "persons": [
+        {
+          "id": 7939,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7939.jpg",
+          "name": "Кевин Бейкон"
+        },
+        {
+          "id": 9700,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_9700.jpg",
+          "name": "Фред Уорд"
+        },
+        {
+          "id": 84398,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_84398.jpg",
+          "name": "Финн Картер"
+        },
+        {
+          "id": 67488,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_67488.jpg",
+          "name": "Майкл Гросс"
+        },
+        {
+          "id": 49519,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_49519.jpg",
+          "name": "Риба Макинтайр"
+        },
+        {
+          "id": 7135,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7135.jpg",
+          "name": "Роберт Джейн"
+        },
+        {
+          "id": 612872,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_612872.jpg",
+          "name": "Эрнест Труст"
+        },
+        {
+          "id": 42764,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_42764.jpg",
+          "name": "Рон Андервуд"
+        }
+      ],
+      "premiere": {
+        "world": "1990-01-19T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.283,
+        "imdb": 7.1,
+        "filmCritics": 7.2,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1989,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/8654?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер",
+            "site": "kinopoisk_widget"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 59268,
+        "imdb": 142627,
+        "filmCritics": 51,
+        "russianFilmCritics": 1,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/18440.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_18440.jpg"
+      }
+    },
+    {
+      "id": 7145,
+      "name": "Супермен",
+      "ageRating": 6,
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Великобритания"
+        },
+        {
+          "name": "Канада"
+        }
+      ],
+      "description": "Цивилизация планеты Криптон стоит на грани гибели. Ученый Джор-Эл, чтобы спасти своему ребенку жизнь, отправляет его на Землю. Маленький мальчик вырастает и открывает в себе неземные возможности. Он - Супермен!\n\nОгромная сила и способность летать помогают ему в борьбе с любыми проявлениями зла. И когда коварный злодей Лекс Лютор строит зловещие планы, угрожающие всему человечеству, только Супермен может помешать ему...",
+      "movieLength": 143,
+      "budget": {
+        "value": 55000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "фантастика"
+        },
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "приключения"
+        }
+      ],
+      "persons": [
+        {
+          "id": 95008,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_95008.jpg",
+          "name": "Кристофер Рив"
+        },
+        {
+          "id": 9552,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_9552.jpg",
+          "name": "Джин Хэкмен"
+        },
+        {
+          "id": 18387,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_18387.jpg",
+          "name": "Марго Киддер"
+        },
+        {
+          "id": 33037,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_33037.jpg",
+          "name": "Марлон Брандо"
+        },
+        {
+          "id": 23802,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_23802.jpg",
+          "name": "Нед Битти"
+        },
+        {
+          "id": 28864,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_28864.jpg",
+          "name": "Валери Перрайн"
+        },
+        {
+          "id": 225027,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_225027.jpg",
+          "name": "Джон Уильямс"
+        },
+        {
+          "id": 2424,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2424.jpg",
+          "name": "Ричард Доннер"
+        }
+      ],
+      "premiere": {
+        "world": "1978-12-10T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.054,
+        "imdb": 7.4,
+        "filmCritics": 8.1,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1978,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/watch?v=ihNvwgTcYV4",
+            "name": "Супермен - Трейлер",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/3660?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер",
+            "site": "KINOPOISK_WIDGET",
+            "size": null,
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/Bv17aj5GU1Y",
+            "name": "Official Teaser Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/bHw39LmnRJU",
+            "name": "Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/ihNvwgTcYV4",
+            "name": "Супермен - Трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/pUwxH4SM9Rg",
+            "name": "Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 15843,
+        "imdb": 179803,
+        "filmCritics": 76,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/7145.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_7145.jpg"
+      }
+    },
+    {
+      "id": 258941,
+      "name": "Тор",
+      "ageRating": 12,
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Эпическое приключение происходит как на нашей планете Земля, так и в королевстве богов Асгарде. В центре истории - Могучий Тор, сильный, но высокомерный воин, чьи безрассудные поступки возрождают древнюю войну в Асгарде. Тора отправляют в ссылку на Землю, лишают сил и заставляют жить среди обычных людей в качестве наказания...",
+      "movieLength": 110,
+      "budget": {
+        "value": 150000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "фантастика"
+        },
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "приключения"
+        }
+      ],
+      "persons": [
+        {
+          "id": 1300401,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1300401.jpg",
+          "name": "Крис Хемсворт"
+        },
+        {
+          "id": 24285,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24285.jpg",
+          "name": "Натали Портман"
+        },
+        {
+          "id": 553143,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_553143.jpg",
+          "name": "Том Хиддлстон"
+        },
+        {
+          "id": 8968,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_8968.jpg",
+          "name": "Энтони Хопкинс"
+        },
+        {
+          "id": 11661,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11661.jpg",
+          "name": "Стеллан Скарсгард"
+        },
+        {
+          "id": 539520,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_539520.jpg",
+          "name": "Кэт Деннингс"
+        },
+        {
+          "id": 98834,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_98834.jpg",
+          "name": "Патрик Дойл"
+        },
+        {
+          "id": 8886,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_8886.jpg",
+          "name": "Кеннет Брана"
+        }
+      ],
+      "premiere": {
+        "world": "2011-04-17T00:00:00.000Z",
+        "russia": "2011-04-28T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.094,
+        "imdb": 7,
+        "filmCritics": 6.7,
+        "russianFilmCritics": 80,
+        "await": null
+      },
+      "year": 2011,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/uHBnrJowBZE",
+            "name": "Thor - Trailer 2 (OFFICIAL)",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/JOddp-nlNvQ",
+            "name": "Thor - Trailer (OFFICIAL)",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/YVTUeXhFbJ8",
+            "name": "Трейлер к фильму Тор (2011) дублированный",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 423931,
+        "imdb": 864763,
+        "filmCritics": 293,
+        "russianFilmCritics": 10,
+        "await": 24060
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/258941.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_258941.jpg"
+      }
+    },
+    {
+      "id": 8468,
+      "name": "Последний из могикан",
+      "ageRating": 16,
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "1757 год. Англо-французская война за американские колонии в самом разгаре. Дочери полковника Манро пытаются пробраться в осажденный французами английский форт. Им на помощь приходит молодой белый охотник Соколиный Глаз. Между Соколиным Глазом, выросшим среди индейцев племени могикан, и старшей из дочерей, утонченной Корой, вспыхивает взаимное чувство.\n\nНо Кора и ее сестра попадают в плен к союзникам французов - гуронам, и от мучительной смерти их могут спасти только Соколиный Глаз и его верные друзья - индейцы…",
+      "movieLength": 112,
+      "budget": {
+        "value": 40000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "драма"
+        },
+        {
+          "name": "мелодрама"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "военный"
+        }
+      ],
+      "persons": [
+        {
+          "id": 41494,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_41494.jpg",
+          "name": "Дэниэл Дэй-Льюис"
+        },
+        {
+          "id": 24643,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24643.jpg",
+          "name": "Мэделин Стоу"
+        },
+        {
+          "id": 52597,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_52597.jpg",
+          "name": "Рассел Минс"
+        },
+        {
+          "id": 15020,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_15020.jpg",
+          "name": "Эрик Швейг"
+        },
+        {
+          "id": 56320,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_56320.jpg",
+          "name": "Джоди Мэй"
+        },
+        {
+          "id": 21471,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_21471.jpg",
+          "name": "Стивен Уоддингтон"
+        },
+        {
+          "id": 175463,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_175463.jpg",
+          "name": "Рэнди Эдельман"
+        },
+        {
+          "id": 508,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_508.jpg",
+          "name": "Майкл Манн"
+        }
+      ],
+      "premiere": {
+        "world": "1992-08-26T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.546,
+        "imdb": 7.7,
+        "filmCritics": 7.9,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1992,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/yaQeVnN6pUc",
+            "name": "The Last of the Mohicans (1992) | Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/booxu6Vur48",
+            "name": "Последний из могикан (1992) «The Last of the Mohicans» - Трейлер (Trailer)",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 22633,
+        "imdb": 176671,
+        "filmCritics": 46,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/8468.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_8468.jpg"
+      }
+    },
+    {
+      "id": 45771,
+      "name": "Вий",
+      "ageRating": 12,
+      "countries": [
+        {
+          "name": "СССР"
+        }
+      ],
+      "description": "Студент-философ Хома Брут должен провести в деревенской церкви три ночи у гроба умершей панночки. Парень будет читать молитвы над телом покойницы, но в деревне ходят слухи, что она была ведьмой.",
+      "movieLength": 77,
+      "budget": {},
+      "genres": [
+        {
+          "name": "ужасы"
+        },
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "драма"
+        }
+      ],
+      "persons": [
+        {
+          "id": 185644,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_185644.jpg",
+          "name": "Леонид Куравлёв"
+        },
+        {
+          "id": 192726,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_192726.jpg",
+          "name": "Наталья Варлей"
+        },
+        {
+          "id": 192727,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_192727.jpg",
+          "name": "Алексей Глазырин"
+        },
+        {
+          "id": 185571,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_185571.jpg",
+          "name": "Николай Кутузов"
+        },
+        {
+          "id": 109508,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_109508.jpg",
+          "name": "Вадим Захарченко"
+        },
+        {
+          "id": 192728,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_192728.jpg",
+          "name": "Петр Вескляров"
+        },
+        {
+          "id": 46836,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_46836.jpg",
+          "name": "Карэн Хачатурян"
+        },
+        {
+          "id": 192723,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_192723.jpg",
+          "name": "Георгий Кропачев"
+        }
+      ],
+      "premiere": {
+        "world": "1967-11-27T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.869,
+        "imdb": 7.2,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1967,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/watch?v=keuYSRXwcVg",
+            "name": "Blu-ray трейлер",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/E-XMNpp_TN4",
+            "name": "Фрагмент",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/DctSay-1WbY",
+            "name": "Фрагмент №2",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/IFAMajfT37M",
+            "name": "Фан-ролик",
+            "site": "youtube"
+          },
+          {
+            "url": "http://www.ageytomesh.ru/upload/GoodVideos/wii.flv",
+            "name": "Трейлер",
+            "site": "unknown"
+          },
+          {
+            "url": "https://www.youtube.com/embed/keuYSRXwcVg",
+            "name": "VIY (Masters of Cinema) New & Exclusive Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/PdC1gufsgt0",
+            "name": "Вий - Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 96791,
+        "imdb": 8418,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/45771.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_45771.jpg"
+      }
+    },
+    {
+      "id": 475,
+      "name": "Спартак",
+      "ageRating": 12,
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "История гладиатора Спартака, его возлюбленной Варинии и честолюбивого римского полководца Красса. Непреодолимая тяга к свободе заставляет Спартака поднять легендарное восстание рабов, ставшее важнейшей вехой мировой истории.",
+      "movieLength": 197,
+      "budget": {
+        "value": 12000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "военный"
+        },
+        {
+          "name": "биография"
+        },
+        {
+          "name": "история"
+        }
+      ],
+      "persons": [
+        {
+          "id": 32087,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_32087.jpg",
+          "name": "Кирк Дуглас"
+        },
+        {
+          "id": 45988,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_45988.jpg",
+          "name": "Лоуренс Оливье"
+        },
+        {
+          "id": 52254,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_52254.jpg",
+          "name": "Джин Симмонс"
+        },
+        {
+          "id": 177180,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_177180.jpg",
+          "name": "Чарльз Лотон"
+        },
+        {
+          "id": 20665,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_20665.jpg",
+          "name": "Питер Устинов"
+        },
+        {
+          "id": 74870,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_74870.jpg",
+          "name": "Джон Гэвин"
+        },
+        {
+          "id": 608690,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_608690.jpg",
+          "name": "Алекс Норт"
+        },
+        {
+          "id": 20299,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_20299.jpg",
+          "name": "Стэнли Кубрик"
+        }
+      ],
+      "premiere": {
+        "world": "1960-10-06T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.858,
+        "imdb": 7.9,
+        "filmCritics": 8.2,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1960,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/watch?v=F2Skyzt-45E",
+            "name": "Спартак - Трейлер",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/121468?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер (русский язык)",
+            "site": "KINOPOISK_WIDGET",
+            "size": null,
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/8499?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер",
+            "site": "KINOPOISK_WIDGET",
+            "size": null,
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/HcIMY1Ah3aw",
+            "name": "Spartacus Official Trailer #1 - Kirk Douglas, Laurence Olivier Movie (1960) HD",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/F2Skyzt-45E",
+            "name": "Спартак - Трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 26317,
+        "imdb": 138114,
+        "filmCritics": 63,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/475.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_475.jpg"
+      }
+    },
+    {
+      "id": 775276,
+      "name": "Зверополис",
+      "ageRating": 6,
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Добро пожаловать в Зверополис – современный город, населенный самыми разными животными, от огромных слонов до крошечных мышек. Зверополис разделен на районы, полностью повторяющие естественную среду обитания разных жителей – здесь есть и элитный район Площадь Сахары и неприветливый Тундратаун. В этом городе появляется новый офицер полиции, жизнерадостная зайчиха Джуди Хоппс, которая с первых дней работы понимает, как сложно быть маленькой и пушистой среди больших и сильных полицейских. Джуди хватается за первую же возможность проявить себя, несмотря на то, что ее партнером будет болтливый хитрый лис Ник Уайлд. Вдвоем им предстоит раскрыть сложное дело, от которого будет зависеть судьба всех обитателей Зверополиса.",
+      "movieLength": 108,
+      "budget": {
+        "value": 150000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "мультфильм"
+        },
+        {
+          "name": "комедия"
+        },
+        {
+          "name": "криминал"
+        },
+        {
+          "name": "детектив"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "семейный"
+        }
+      ],
+      "persons": [
+        {
+          "id": 30098,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_30098.jpg",
+          "name": "Джиннифер Гудвин"
+        },
+        {
+          "id": 1858,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1858.jpg",
+          "name": "Джейсон Бейтман"
+        },
+        {
+          "id": 48134,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_48134.jpg",
+          "name": "Идрис Эльба"
+        },
+        {
+          "id": 1657748,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1657748.jpg",
+          "name": "Дженни Слейт"
+        },
+        {
+          "id": 558056,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_558056.jpg",
+          "name": "Нейт Торренс"
+        },
+        {
+          "id": 22527,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_22527.jpg",
+          "name": "Бонни Хант"
+        },
+        {
+          "id": 257568,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_257568.jpg",
+          "name": "Майкл Джаккино"
+        },
+        {
+          "id": 1562107,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1562107.jpg",
+          "name": "Байрон Ховард"
+        }
+      ],
+      "premiere": {
+        "world": "2016-02-10T00:00:00.000Z",
+        "russia": "2016-03-03T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 8.316,
+        "imdb": 8,
+        "filmCritics": 8.1,
+        "russianFilmCritics": 100,
+        "await": null
+      },
+      "year": 2016,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/129654?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер №2 (дублированный)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=j71xLVzdsBg&feature=youtu.be",
+            "name": "Фрагмент №2 (дублированный)",
+            "site": "youtube"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/130335?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Международный трейлер (дублированный)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/129653?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер №2",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/121031?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Тизер (украинский язык)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://www.youtube.com/v/XqWO5JxLwwU",
+            "name": "ТВ-ролик №2",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/zq5dzkNpLao",
+            "name": "Фрагмент №6 (дублированный)",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ME4nCvWs81I&feature=em-uploademail",
+            "name": "Фрагмент №5",
+            "site": "youtube"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/131324?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "КиноПоиск о мультфильме «Зверополис» (русские субтитры)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GeQ_vl7v5l4&feature=em-uploademail",
+            "name": "ТВ-ролик",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/ew9YTMx4VrA",
+            "name": "Фрагмент №3",
+            "site": "youtube"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/128117?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/121139?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Тизер в озвучке Николая Дроздова (дублированный)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/120955?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Тизер (дублированный)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/131726?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер (украинский язык)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=jjCeltFLGUA&feature=em-uploademail",
+            "name": "Ролик об озвучании",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/aDu1ePkORSI",
+            "name": "Фрагмент №5 (дублированный)",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/FmqriFx1Hb4",
+            "name": "Фрагмент №3 (дублированный)",
+            "site": "youtube"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/129734?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер №2 (украинский язык)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/120963?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Тизер",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://www.youtube.com/v/XNv0AoWLMKY",
+            "name": "Фрагмент №6",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=qCBssPRPBSk&feature=em-uploademail",
+            "name": "Фрагмент №4",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/M7TSAUbWWIA",
+            "name": "Фрагмент №4 (дублированный)",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=gYVa3tVBKrg&feature=youtu.be",
+            "name": "Фрагмент №1 (дублированный)",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=G3-O_UEmvP8&feature=em-uploademail",
+            "name": "Международный трейлер",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=uH0XJseNciI&feature=em-uploademail",
+            "name": "Фрагмент №2",
+            "site": "youtube"
+          },
+          {
+            "url": "https://www.youtube.com/v/b8hYj0ROMo4",
+            "name": "Фрагмент",
+            "site": "youtube"
+          },
+          {
+            "url": "https://widgets.kinopoisk.ru/discovery/trailer/128168?onlyPlayer=1&autoplay=1&cover=1",
+            "name": "Трейлер (дублированный)",
+            "site": "kinopoisk_widget"
+          },
+          {
+            "url": "https://www.youtube.com/embed/jWM0ct-OLsM",
+            "name": "Official US Trailer #2",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/bY73vFGhSVk",
+            "name": "Official US Sloth Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/Pi2drToxsBE",
+            "name": "Зверополис - Трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 882230,
+        "imdb": 513814,
+        "filmCritics": 298,
+        "russianFilmCritics": 14,
+        "await": 18811
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/775276.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_775276.jpg"
+      }
+    },
+    {
+      "id": 1109278,
+      "name": "Ватага",
+      "ageRating": null,
+      "countries": [
+        {
+          "name": "Польша"
+        }
+      ],
+      "description": "Польско-украинская граница в отдалённом регионе, в горах Бещады. На заставе происходит взрыв бомбы, в результате которого погибают пограничники. Единственный чудом оставшийся в живых капитан Виктор Ребров, очнувшись, понимает, что потерял всех друзей и любимую девушку. Он решает выяснить, кто стоит за взрывом. Его командир вместе со следователем Генеральной прокуратуры также решают выяснить правду. Параллельно ведя расследование, они приходят к шокирующим выводам.",
+      "movieLength": null,
+      "budget": {},
+      "genres": [
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "триллер"
+        },
+        {
+          "name": "драма"
+        },
+        {
+          "name": "криминал"
+        }
+      ],
+      "persons": [
+        {
+          "id": 1451072,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1451072.jpg",
+          "name": "Лешек Лихота"
+        },
+        {
+          "id": 1033657,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1033657.jpg",
+          "name": "Александра Поплавска"
+        },
+        {
+          "id": 38136,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_38136.jpg",
+          "name": "Анджей Зелиньски"
+        },
+        {
+          "id": 1174134,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1174134.jpg",
+          "name": "Мацей Миколайшик"
+        },
+        {
+          "id": 1990263,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1990263.jpg",
+          "name": "Дагмара Бак"
+        },
+        {
+          "id": 386449,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_386449.jpg",
+          "name": "Ярослав Боберек"
+        },
+        {
+          "id": 1615116,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1615116.jpg",
+          "name": "Лукаш Таргош"
+        },
+        {
+          "id": 42451,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_42451.jpg",
+          "name": "Кася Адамик"
+        }
+      ],
+      "premiere": {
+        "world": "2014-10-12T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 7.6,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2014,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/OkzUZXS1FYc",
+            "name": "The Border - Series Trailer (English Subtitles)",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 299,
+        "imdb": 2893,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/1109278.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_1109278.jpg"
       }
     }
   ]

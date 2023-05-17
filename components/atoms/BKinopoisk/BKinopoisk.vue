@@ -133,7 +133,7 @@ export default {
 li
   +hover()
     .movie
-      color $red
+      color $orange
 .popup
   width 100vw
   height 100vh
@@ -143,7 +143,7 @@ li
   &:after
     content ''
     position absolute
-    background $red
+    background $orange
     left 0
     top 0
     right 0
@@ -177,7 +177,7 @@ li
     top 12px
     +hover()
       cursor pointer
-      color $red
+      color $orange
   &__time
     display flex
 </style>

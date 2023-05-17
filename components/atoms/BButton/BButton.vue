@@ -68,13 +68,13 @@ export default {
   color $white
   border-radius 12px
   transition(all)
-  background $red
+  background $orange
   @media $sxs
     height 48px
     fontSzLh(14, 20)
     border-radius 48px
   &._default
-    background $red
+    background $orange
     transition(all)
     +hover()
       background $disable

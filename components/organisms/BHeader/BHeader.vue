@@ -2,7 +2,7 @@
   <div class="header_wrapper">
     <header class="header container">
       <div class="header__left">
-        <nuxt-link to="/" class="header__logo">logo</nuxt-link>
+        <nuxt-link to="/" class="header__logo"><img src="/img/logo.png" alt="" /></nuxt-link>
       </div>
       <div class="header__right">
         <div class="header__menu">
@@ -73,6 +73,10 @@ export default {
   &__right
     display flex
     align-items center
+  &__left
+    & img
+        height 62px
+        width 62px
   &__menu
     display flex
     &-item
@@ -84,7 +88,7 @@ export default {
       padding 0 20px
       transition(all)
       +hover()
-        background $red
+        background $orange
         transition(all)
       @media $laptop
         &:nth-child(n + 5)

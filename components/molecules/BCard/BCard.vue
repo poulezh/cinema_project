@@ -114,7 +114,7 @@ export default {
     gap 4px
     &-item
       padding 7px 8px
-      background $red
+      background $orange
       width fit-content
       position relative
       height 30px
