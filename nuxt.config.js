@@ -5,6 +5,9 @@ export default {
   ...(!isDev && {
     modern: 'client',
   }),
+  publicRuntimeConfig: {
+    kinopoiskToken: process.env.KINOPOISK_TOKEN,
+  },
   head: {
     title: 'nuxt-boilerplate',
     htmlAttrs: {

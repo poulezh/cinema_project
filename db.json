@@ -1,539 +1,258 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1",
-      "body": "Lorem ipsum dolor sit amet"
-    },
-    {
-      "id": 2,
-      "title": "Post 2",
-      "body": "Consectetur adipiscing elit"
-    },
-    {
-      "id": 3,
-      "title": "Post 3",
-      "body": "Sed do eiusmod tempor incididunt"
-    },
-    {
-      "title": "qweqweqw",
-      "body": "qweqweqweqweqweqweqwe",
-      "id": 4
-    }
-  ],
+  "posts": [],
   "today": [
     {
-      "id": "333",
-      "name": "Звёздные войны: Эпизод 4 — Новая надежда",
-      "ageRating": 6,
+      "id": 328,
+      "name": "Властелин колец: Братство Кольца",
+      "ageRating": 12,
       "countries": [
+        {
+          "name": "Новая Зеландия"
+        },
         {
           "name": "США"
         }
       ],
-      "description": "Татуин. Планета-пустыня. Уже постаревший рыцарь Джедай Оби Ван Кеноби спасает молодого Люка Скайуокера, когда тот пытается отыскать пропавшего дроида. С этого момента Люк осознает свое истинное назначение: он один из рыцарей Джедай. В то время как гражданская война охватила галактику, а войска повстанцев ведут бои против сил злого Императора, к Люку и Оби Вану присоединяется отчаянный пилот-наемник Хан Соло, и в сопровождении двух дроидов, R2D2 и C-3PO, этот необычный отряд отправляется на поиски предводителя повстанцев – принцессы Леи. Героям предстоит отчаянная схватка с устрашающим Дартом Вейдером – правой рукой Императора и его секретным оружием – «Звездой Смерти».",
-      "movieLength": 121,
+      "description": "Сказания о Средиземье — это хроника Великой войны за Кольцо, длившейся не одну тысячу лет. Тот, кто владел Кольцом, получал неограниченную власть, но был обязан служить злу. \n\nТихая деревня, где живут хоббиты. Придя на 111-й день рождения к своему старому другу Бильбо Бэггинсу, волшебник Гэндальф начинает вести разговор о кольце, которое Бильбо нашел много лет назад. Это кольцо принадлежало когда-то темному властителю Средиземья Саурону, и оно дает большую власть своему обладателю. Теперь Саурон хочет вернуть себе власть над Средиземьем. Бильбо отдает Кольцо племяннику Фродо, чтобы тот отнёс его к Роковой Горе и уничтожил.",
+      "movieLength": 178,
       "budget": {
-        "value": 11000000,
+        "value": 93000000,
         "currency": "$"
       },
       "genres": [
         {
-          "name": "фантастика"
+          "name": "фэнтези"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "драма"
         },
         {
           "name": "боевик"
+        }
+      ],
+      "persons": [
+        [
+          {
+            "id": 20287,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_20287.jpg",
+            "name": "Элайджа Вуд"
+          },
+          {
+            "id": 8215,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_8215.jpg",
+            "name": "Иэн Маккеллен"
+          },
+          {
+            "id": 28426,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_28426.jpg",
+            "name": "Шон Эстин"
+          },
+          {
+            "id": 10779,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10779.jpg",
+            "name": "Вигго Мортенсен"
+          },
+          {
+            "id": 28463,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_28463.jpg",
+            "name": "Билли Бойд"
+          },
+          {
+            "id": 23240,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_23240.jpg",
+            "name": "Доминик Монахэн"
+          }
+        ],
+        [
+          {
+            "id": 142716,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_142716.jpg",
+            "name": "Говард Шор"
+          }
+        ],
+        [],
+        [
+          {
+            "id": 32383,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_32383.jpg",
+            "name": "Питер Джексон"
+          }
+        ]
+      ],
+      "premiere": {
+        "world": "2001-12-10T00:00:00.000Z",
+        "russia": "2002-02-07T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 8.604,
+        "imdb": 8.8,
+        "filmCritics": 8.2,
+        "russianFilmCritics": 71.4286,
+        "await": null
+      },
+      "year": 2001,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/_nZdmwHrcnw",
+            "name": "Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/AHWSMnEEPdQ",
+            "name": "Властелин Колец: Братство Кольца Официальный Трейлер 1 (2001)",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/xPrxOJCw1B8",
+            "name": "Властелин колец: Братство кольца - Трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 615388,
+        "imdb": 1909328,
+        "filmCritics": 234,
+        "russianFilmCritics": 7,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/328.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_328.jpg"
+      },
+      "dateStart": "2023-05-17T08:46:00.000Z",
+      "dateEnd": "2023-05-31T08:46:00.000Z"
+    },
+    {
+      "id": 229253,
+      "name": "Возвращение короля",
+      "ageRating": null,
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Япония"
+        }
+      ],
+      "description": "К стенам Королевского города стекаются несметные войска Повелителя Тьмы. Король-призрак ведет чудовищную армию - тролли и орки, гоблины и назгулы идут на штурм города. Насмерть стоят бесстрашные защитники, все длится и длится кровавый бой... А в горах Мордора Фродо и Сэмми, томясь от жажды и голода, прячась от вездесущих врагов, все ближе и ближе подступают к жерлу Огненной горы...",
+      "movieLength": 98,
+      "budget": {
+        "value": 3000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "мультфильм"
+        },
+        {
+          "name": "мюзикл"
         },
         {
           "name": "фэнтези"
         },
         {
           "name": "приключения"
+        },
+        {
+          "name": "семейный"
         }
       ],
       "persons": [
         [
           {
-            "id": 23716,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_23716.jpg",
-            "name": "Марк Хэмилл"
+            "id": 25537,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_25537.jpg",
+            "name": "Орсон Бин"
           },
           {
-            "id": 5679,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_5679.jpg",
-            "name": "Харрисон Форд"
+            "id": 70147,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_70147.jpg",
+            "name": "Теодор Бикел"
           },
           {
-            "id": 8459,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_8459.jpg",
-            "name": "Кэрри Фишер"
+            "id": 122631,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_122631.jpg",
+            "name": "Уильям Конрад"
           },
           {
-            "id": 156498,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_156498.jpg",
-            "name": "Питер Кушинг"
+            "id": 145623,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_145623.jpg",
+            "name": "Джон Хьюстон"
           },
           {
-            "id": 102431,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_102431.jpg",
-            "name": "Алек Гиннесс"
+            "id": 65213,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_65213.jpg",
+            "name": "Родди Макдауэлл"
           },
           {
-            "id": 24289,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24289.jpg",
-            "name": "Энтони Дэниелс"
+            "id": 133830,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_133830.jpg",
+            "name": "Брава Теодор"
           }
         ],
         [
           {
-            "id": 225027,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_225027.jpg",
-            "name": "Джон Уильямс"
+            "id": 613602,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_613602.jpg",
+            "name": "Мори Лоус"
           }
         ],
         [],
         [
           {
-            "id": 24284,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24284.jpg",
-            "name": "Джордж Лукас"
+            "id": 150754,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_150754.jpg",
+            "name": "Джулз Басс"
           }
         ]
       ],
       "premiere": {
-        "world": "1977-05-25T00:00:00.000Z"
+        "world": "1980-05-11T00:00:00.000Z"
       },
       "rating": {
-        "kp": 8.116,
-        "imdb": 8.6,
-        "filmCritics": 8.8,
+        "kp": 6.69,
+        "imdb": 5.6,
+        "filmCritics": 5.9,
         "russianFilmCritics": 0,
         "await": null
       },
-      "year": 1977,
+      "year": 1980,
       "videos": {
+        "teasers": [],
         "trailers": [
           {
-            "url": "https://www.youtube.com/embed/i-vsILeJ8_8",
-            "name": "Teaser Trailer",
+            "url": "https://www.youtube.com/embed/gfLXFkzQRSI",
+            "name": "The Return of the King Trailer (Animated)",
             "site": "youtube",
             "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/vZ734NWnAHA",
-            "name": "Trailer",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/C9X3OEB_xdQ",
-            "name": "Звездные войны: Эпизод 4 – Новая надежда (1977) — русский трейлер HD",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/1fvCgGPI5Zk",
-            "name": "Звёздные Войны: Новая Надежда",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/XsS1yE2f-hE",
-            "name": "Star Wars (1977) - Trailer",
-            "site": "youtube",
-            "type": "TRAILER"
-          }
-        ],
-        "teasers": []
-      },
-      "votes": {
-        "kp": 312432,
-        "imdb": 1388719,
-        "filmCritics": 138,
-        "russianFilmCritics": 0,
-        "await": 1
-      },
-      "poster": {
-        "url": "https://st.kp.yandex.net/images/film_big/333.jpg",
-        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_333.jpg"
-      },
-      "dateStart": "2023-05-01T14:28:00.000Z",
-      "dateEnd": "2023-05-31T14:28:00.000Z"
-    },
-    {
-      "id": "888",
-      "name": "Один и два",
-      "ageRating": 16,
-      "countries": [
-        {
-          "name": "Тайвань"
-        },
-        {
-          "name": "Япония"
-        }
-      ],
-      "description": "ЭнДжею уже за сорок, и он встревожен. Вдобавок к проблемам на работе его семья превратилась в клубок проблем - теща в коме, жена переживает душевный кризис, дочь впервые влюбилась, а сын слишком мудр для своих восьми лет. Внезапная встреча с давней возлюбленной Шерри, которую ЭнДжей бросил много лет назад, дает ему шанс начать новую жизнь. Вновь став романтиком, ЭнДжей тайком отправляется с Шерри в Японию, чтобы попытаться исправить свои ошибки.",
-      "movieLength": 173,
-      "budget": {},
-      "genres": [
-        {
-          "name": "драма"
-        }
-      ],
-      "persons": [
-        [
-          {
-            "id": 11711,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11711.jpg",
-            "name": "У Няньчжэнь"
-          },
-          {
-            "id": 11713,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11713.jpg",
-            "name": "Иссэй Огата"
-          },
-          {
-            "id": 11712,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11712.jpg",
-            "name": "Элэйн Цзинь"
-          },
-          {
-            "id": 11714,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11714.jpg",
-            "name": "Келли Ли"
-          },
-          {
-            "id": 11715,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11715.jpg",
-            "name": "Джонатан Чан"
-          },
-          {
-            "id": 11716,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11716.jpg",
-            "name": "Си-Шэн Чен"
-          }
-        ],
-        [
-          {
-            "id": 611916,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_611916.jpg",
-            "name": "Пэн Кайли"
-          }
-        ],
-        [],
-        [
-          {
-            "id": 11710,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11710.jpg",
-            "name": "Эдвард Ян"
           }
         ]
-      ],
-      "premiere": {
-        "world": "2000-05-15T00:00:00.000Z"
-      },
-      "rating": {
-        "kp": 6.881,
-        "imdb": 8.1,
-        "filmCritics": 8.3,
-        "russianFilmCritics": 0,
-        "await": null
-      },
-      "year": 2000,
-      "videos": {
-        "trailers": [
-          {
-            "url": "https://www.youtube.com/v/8F6tSorwYqw",
-            "name": "Трейлер",
-            "site": "youtube"
-          },
-          {
-            "url": "https://www.youtube.com/embed/4SCs_jbdHwg",
-            "name": "Yi Yi A One and a Two (2000) Original Theatrical Trailer [4K] [FTD-0760]",
-            "site": "youtube",
-            "type": "TRAILER"
-          }
-        ],
-        "teasers": []
       },
       "votes": {
-        "kp": 2171,
-        "imdb": 26050,
-        "filmCritics": 87,
-        "russianFilmCritics": 0,
-        "await": 1
-      },
-      "poster": {
-        "url": "https://st.kp.yandex.net/images/film_big/888.jpg",
-        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_888.jpg"
-      },
-      "dateStart": "2023-04-30T17:01:00.000Z",
-      "dateEnd": "2023-05-08T17:01:00.000Z"
-    },
-    {
-      "id": "991",
-      "name": "Люди будут судачить",
-      "ageRating": 0,
-      "countries": [
-        {
-          "name": "США"
-        }
-      ],
-      "description": "Доктора Ноа Преториус, молодой врач-энтузиаст, считающий, что лечить больных можно и нужно разумным подходом к ним, а не массивными дозами лекарств. Его позиция, что лечить надо пациента, а не болезнь приводит в восторг начальство, но ужасает коллег, которые предпочитают традиционные методы лечения. Доктор преподает в медицинском училище и живет, по мнению многих, странной жизнью. \n\nПрофессор Элуэлл, коллега Преториуса, мрачный инструктор по анатомии, не любит его. Ему самому больше нравится резать трупы, чем беседовать с людьми. В перерывах между занятиями доктор Преториус дирижирует школьным оркестром, исполняя Вагнера и Брамса. Элуэлл плетет интриги и сообщает декану Лаймэну Брокуэллу интересные факты о медицинском прошлом доктора Преториуса. Ему приходится защищаться.",
-      "movieLength": 110,
-      "budget": {},
-      "genres": [
-        {
-          "name": "драма"
-        },
-        {
-          "name": "мелодрама"
-        },
-        {
-          "name": "комедия"
-        }
-      ],
-      "persons": [
-        [
-          {
-            "id": 154898,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_154898.jpg",
-            "name": "Кэри Грант"
-          },
-          {
-            "id": 184394,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_184394.jpg",
-            "name": "Джинн Крейн"
-          },
-          {
-            "id": 195239,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_195239.jpg",
-            "name": "Финлэй Карри"
-          },
-          {
-            "id": 33042,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_33042.jpg",
-            "name": "Хьюм Кронин"
-          },
-          {
-            "id": 184458,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_184458.jpg",
-            "name": "Вальтер Слезак"
-          },
-          {
-            "id": 190565,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_190565.jpg",
-            "name": "Сидни Блэкмер"
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "id": 154900,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_154900.jpg",
-            "name": "Джозеф Лео Манкевич"
-          }
-        ]
-      ],
-      "premiere": {
-        "world": "1951-08-29T00:00:00.000Z"
-      },
-      "rating": {
-        "kp": 6.871,
-        "imdb": 7.4,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
-      },
-      "year": 1951,
-      "videos": {
-        "trailers": [
-          {
-            "url": "https://www.youtube.com/watch?v=TvLNaV-ja4E",
-            "name": "People Will Talk (1951) Trailer",
-            "site": "YouTube",
-            "size": 360,
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/v/bmvV219bhUU",
-            "name": "Трейлер",
-            "site": "YOUTUBE",
-            "size": null,
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/TvLNaV-ja4E",
-            "name": "People Will Talk (1951) Trailer",
-            "site": "youtube",
-            "type": "TRAILER"
-          }
-        ],
-        "teasers": []
-      },
-      "votes": {
-        "kp": 293,
-        "imdb": 6699,
-        "filmCritics": 0,
+        "kp": 1145,
+        "imdb": 4313,
+        "filmCritics": 15,
         "russianFilmCritics": 0,
         "await": 0
       },
       "poster": {
-        "url": "https://st.kp.yandex.net/images/film_big/991.jpg",
-        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_991.jpg"
+        "url": "https://st.kp.yandex.net/images/film_big/229253.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_229253.jpg"
       },
       "dateStart": "",
       "dateEnd": ""
     },
     {
-      "id": "456",
-      "name": "Унесённые ветром",
-      "ageRating": 12,
-      "countries": [
-        {
-          "name": "США"
-        }
-      ],
-      "description": "Могучие ветры Гражданской войны в один миг уносят беззаботную юность южанки Скарлетт О`Хара, когда привычный шум балов сменяется грохотом канонад на подступах к родному дому. Для молодой женщины, вынужденной бороться за новую жизнь на разоренной земле, испытания и лишения становятся шансом переосмыслить идеалы, обрести веру в себя и найти настоящую любовь.",
-      "movieLength": 222,
-      "budget": {
-        "value": 3977000,
-        "currency": "$"
-      },
-      "genres": [
-        {
-          "name": "мелодрама"
-        },
-        {
-          "name": "история"
-        },
-        {
-          "name": "драма"
-        },
-        {
-          "name": "военный"
-        }
-      ],
-      "persons": [
-        [
-          {
-            "id": 24974,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24974.jpg",
-            "name": "Вивьен Ли"
-          },
-          {
-            "id": 178193,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_178193.jpg",
-            "name": "Кларк Гейбл"
-          },
-          {
-            "id": 215193,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_215193.jpg",
-            "name": "Лесли Говард"
-          },
-          {
-            "id": 172096,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_172096.jpg",
-            "name": "Оливия Де Хэвилленд"
-          },
-          {
-            "id": 214628,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_214628.jpg",
-            "name": "Оскар Полк"
-          },
-          {
-            "id": 14787,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_14787.jpg",
-            "name": "Хэтти МакДэниел"
-          }
-        ],
-        [
-          {
-            "id": 202348,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_202348.jpg",
-            "name": "Макс Штайнер"
-          }
-        ],
-        [],
-        [
-          {
-            "id": 210445,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_210445.jpg",
-            "name": "Виктор Флеминг"
-          }
-        ]
-      ],
-      "premiere": {
-        "world": "1939-12-15T00:00:00.000Z"
-      },
-      "rating": {
-        "kp": 8.382,
-        "imdb": 8.2,
-        "filmCritics": 8.8,
-        "russianFilmCritics": 0,
-        "await": null
-      },
-      "year": 1939,
-      "videos": {
-        "trailers": [
-          {
-            "url": "https://www.youtube.com/embed/tGGEF42hKb4",
-            "name": "Gone With The Wind 1939 Trailer HD | Clark Gable | Vivien Leigh",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/0dTsfsr6-X8",
-            "name": "Gone With the Wind (1939) (Trailer) | BFI",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/fsVQhN4nyxw",
-            "name": "Gone With The Wind - Trailer",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/edbllwXLjA8",
-            "name": "Унесенные ветром - трейлер на русском языке",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/Me_Y036u5lg",
-            "name": "Унесенные ветром - Трейлер",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/fgdCVxmPMVE",
-            "name": "Gone With the Wind - Theatrical Trailer IB Technicolor Print 4K Remaster",
-            "site": "youtube",
-            "type": "TRAILER"
-          }
-        ],
-        "teasers": []
-      },
-      "votes": {
-        "kp": 189507,
-        "imdb": 321629,
-        "filmCritics": 103,
-        "russianFilmCritics": 1,
-        "await": 0
-      },
-      "poster": {
-        "url": "https://st.kp.yandex.net/images/film_big/456.jpg",
-        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_456.jpg"
-      },
-      "dateStart": "",
-      "dateEnd": ""
-    }
-  ],
-  "soon": [
-    {
-      "id": "666",
+      "id": 666,
       "name": "Форсаж",
       "ageRating": 16,
       "countries": [
@@ -674,359 +393,112 @@
         "url": "https://st.kp.yandex.net/images/film_big/666.jpg",
         "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_666.jpg"
       },
-      "dateStart": "2023-05-28T14:29:00.000Z",
-      "dateEnd": "2023-05-31T14:29:00.000Z"
+      "dateStart": "2023-05-15T09:31:00.000Z",
+      "dateEnd": "2023-05-31T09:31:00.000Z"
     },
     {
-      "id": "888",
-      "name": "Один и два",
-      "ageRating": 16,
-      "countries": [
-        {
-          "name": "Тайвань"
-        },
-        {
-          "name": "Япония"
-        }
-      ],
-      "description": "ЭнДжею уже за сорок, и он встревожен. Вдобавок к проблемам на работе его семья превратилась в клубок проблем - теща в коме, жена переживает душевный кризис, дочь впервые влюбилась, а сын слишком мудр для своих восьми лет. Внезапная встреча с давней возлюбленной Шерри, которую ЭнДжей бросил много лет назад, дает ему шанс начать новую жизнь. Вновь став романтиком, ЭнДжей тайком отправляется с Шерри в Японию, чтобы попытаться исправить свои ошибки.",
-      "movieLength": 173,
-      "budget": {},
-      "genres": [
-        {
-          "name": "драма"
-        }
-      ],
-      "persons": [
-        [
-          {
-            "id": 11711,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11711.jpg",
-            "name": "У Няньчжэнь"
-          },
-          {
-            "id": 11713,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11713.jpg",
-            "name": "Иссэй Огата"
-          },
-          {
-            "id": 11712,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11712.jpg",
-            "name": "Элэйн Цзинь"
-          },
-          {
-            "id": 11714,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11714.jpg",
-            "name": "Келли Ли"
-          },
-          {
-            "id": 11715,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11715.jpg",
-            "name": "Джонатан Чан"
-          },
-          {
-            "id": 11716,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11716.jpg",
-            "name": "Си-Шэн Чен"
-          }
-        ],
-        [
-          {
-            "id": 611916,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_611916.jpg",
-            "name": "Пэн Кайли"
-          }
-        ],
-        [],
-        [
-          {
-            "id": 11710,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11710.jpg",
-            "name": "Эдвард Ян"
-          }
-        ]
-      ],
-      "premiere": {
-        "world": "2000-05-15T00:00:00.000Z"
-      },
-      "rating": {
-        "kp": 6.881,
-        "imdb": 8.1,
-        "filmCritics": 8.3,
-        "russianFilmCritics": 0,
-        "await": null
-      },
-      "year": 2000,
-      "videos": {
-        "trailers": [
-          {
-            "url": "https://www.youtube.com/v/8F6tSorwYqw",
-            "name": "Трейлер",
-            "site": "youtube"
-          },
-          {
-            "url": "https://www.youtube.com/embed/4SCs_jbdHwg",
-            "name": "Yi Yi A One and a Two (2000) Original Theatrical Trailer [4K] [FTD-0760]",
-            "site": "youtube",
-            "type": "TRAILER"
-          }
-        ],
-        "teasers": []
-      },
-      "votes": {
-        "kp": 2171,
-        "imdb": 26050,
-        "filmCritics": 87,
-        "russianFilmCritics": 0,
-        "await": 1
-      },
-      "poster": {
-        "url": "https://st.kp.yandex.net/images/film_big/888.jpg",
-        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_888.jpg"
-      },
-      "dateStart": "",
-      "dateEnd": ""
-    },
-    {
-      "id": "991",
-      "name": "Люди будут судачить",
-      "ageRating": 0,
-      "countries": [
-        {
-          "name": "США"
-        }
-      ],
-      "description": "Доктора Ноа Преториус, молодой врач-энтузиаст, считающий, что лечить больных можно и нужно разумным подходом к ним, а не массивными дозами лекарств. Его позиция, что лечить надо пациента, а не болезнь приводит в восторг начальство, но ужасает коллег, которые предпочитают традиционные методы лечения. Доктор преподает в медицинском училище и живет, по мнению многих, странной жизнью. \n\nПрофессор Элуэлл, коллега Преториуса, мрачный инструктор по анатомии, не любит его. Ему самому больше нравится резать трупы, чем беседовать с людьми. В перерывах между занятиями доктор Преториус дирижирует школьным оркестром, исполняя Вагнера и Брамса. Элуэлл плетет интриги и сообщает декану Лаймэну Брокуэллу интересные факты о медицинском прошлом доктора Преториуса. Ему приходится защищаться.",
-      "movieLength": 110,
-      "budget": {},
-      "genres": [
-        {
-          "name": "драма"
-        },
-        {
-          "name": "мелодрама"
-        },
-        {
-          "name": "комедия"
-        }
-      ],
-      "persons": [
-        [
-          {
-            "id": 154898,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_154898.jpg",
-            "name": "Кэри Грант"
-          },
-          {
-            "id": 184394,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_184394.jpg",
-            "name": "Джинн Крейн"
-          },
-          {
-            "id": 195239,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_195239.jpg",
-            "name": "Финлэй Карри"
-          },
-          {
-            "id": 33042,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_33042.jpg",
-            "name": "Хьюм Кронин"
-          },
-          {
-            "id": 184458,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_184458.jpg",
-            "name": "Вальтер Слезак"
-          },
-          {
-            "id": 190565,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_190565.jpg",
-            "name": "Сидни Блэкмер"
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "id": 154900,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_154900.jpg",
-            "name": "Джозеф Лео Манкевич"
-          }
-        ]
-      ],
-      "premiere": {
-        "world": "1951-08-29T00:00:00.000Z"
-      },
-      "rating": {
-        "kp": 6.871,
-        "imdb": 7.4,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
-      },
-      "year": 1951,
-      "videos": {
-        "trailers": [
-          {
-            "url": "https://www.youtube.com/watch?v=TvLNaV-ja4E",
-            "name": "People Will Talk (1951) Trailer",
-            "site": "YouTube",
-            "size": 360,
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/v/bmvV219bhUU",
-            "name": "Трейлер",
-            "site": "YOUTUBE",
-            "size": null,
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/TvLNaV-ja4E",
-            "name": "People Will Talk (1951) Trailer",
-            "site": "youtube",
-            "type": "TRAILER"
-          }
-        ],
-        "teasers": []
-      },
-      "votes": {
-        "kp": 293,
-        "imdb": 6699,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "poster": {
-        "url": "https://st.kp.yandex.net/images/film_big/991.jpg",
-        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_991.jpg"
-      },
-      "dateStart": "",
-      "dateEnd": ""
-    },
-    {
-      "id": "456",
-      "name": "Унесённые ветром",
+      "id": 5619,
+      "name": "Звёздные войны: Эпизод 3 — Месть ситхов",
       "ageRating": 12,
       "countries": [
         {
           "name": "США"
+        },
+        {
+          "name": "Италия"
+        },
+        {
+          "name": "Швейцария"
+        },
+        {
+          "name": "Таиланд"
         }
       ],
-      "description": "Могучие ветры Гражданской войны в один миг уносят беззаботную юность южанки Скарлетт О`Хара, когда привычный шум балов сменяется грохотом канонад на подступах к родному дому. Для молодой женщины, вынужденной бороться за новую жизнь на разоренной земле, испытания и лишения становятся шансом переосмыслить идеалы, обрести веру в себя и найти настоящую любовь.",
-      "movieLength": 222,
+      "description": "Идёт третий год Войн клонов. Галактическая Республика, некогда бывшая спокойным и гармоничным государством, превратилась в поле битвы между армиями клонов, возглавляемых канцлером Палпатином, и армадами дроидов, которых ведёт граф Дуку, тёмный лорд ситхов. Республика медленно погружается во тьму. Лишь рыцари-джедаи, защитники мира и справедливости, могут противостоять злу, которое вскоре поглотит галактику. Но настоящая битва идёт в душе у молодого рыцаря-джедая Энакина, который разрывается между долгом джедая и любовью к своей жене, сенатору Падме Амидале. И от того, какое чувство в нём победит, зависит будущее всего мира.",
+      "movieLength": 140,
       "budget": {
-        "value": 3977000,
+        "value": 113000000,
         "currency": "$"
       },
       "genres": [
         {
-          "name": "мелодрама"
+          "name": "фантастика"
         },
         {
-          "name": "история"
+          "name": "боевик"
         },
         {
-          "name": "драма"
+          "name": "фэнтези"
         },
         {
-          "name": "военный"
+          "name": "приключения"
         }
       ],
       "persons": [
-        [
-          {
-            "id": 24974,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24974.jpg",
-            "name": "Вивьен Ли"
-          },
-          {
-            "id": 178193,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_178193.jpg",
-            "name": "Кларк Гейбл"
-          },
-          {
-            "id": 215193,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_215193.jpg",
-            "name": "Лесли Говард"
-          },
-          {
-            "id": 172096,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_172096.jpg",
-            "name": "Оливия Де Хэвилленд"
-          },
-          {
-            "id": 214628,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_214628.jpg",
-            "name": "Оскар Полк"
-          },
-          {
-            "id": 14787,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_14787.jpg",
-            "name": "Хэтти МакДэниел"
-          }
-        ],
-        [
-          {
-            "id": 202348,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_202348.jpg",
-            "name": "Макс Штайнер"
-          }
-        ],
-        [],
-        [
-          {
-            "id": 210445,
-            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_210445.jpg",
-            "name": "Виктор Флеминг"
-          }
-        ]
+        {
+          "id": 7590,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7590.jpg",
+          "name": "Юэн Макгрегор"
+        },
+        {
+          "id": 24285,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24285.jpg",
+          "name": "Натали Портман"
+        },
+        {
+          "id": 24771,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24771.jpg",
+          "name": "Хейден Кристенсен"
+        },
+        {
+          "id": 21467,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_21467.jpg",
+          "name": "Иен Макдермид"
+        },
+        {
+          "id": 7164,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7164.jpg",
+          "name": "Сэмюэл Л. Джексон"
+        },
+        {
+          "id": 40022,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_40022.jpg",
+          "name": "Джимми Смитс"
+        },
+        {
+          "id": 225027,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_225027.jpg",
+          "name": "Джон Уильямс"
+        },
+        {
+          "id": 24284,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24284.jpg",
+          "name": "Джордж Лукас"
+        }
       ],
       "premiere": {
-        "world": "1939-12-15T00:00:00.000Z"
+        "world": "2005-05-12T00:00:00.000Z",
+        "russia": "2005-05-19T00:00:00.000Z"
       },
       "rating": {
-        "kp": 8.382,
-        "imdb": 8.2,
-        "filmCritics": 8.8,
+        "kp": 8.108,
+        "imdb": 7.6,
+        "filmCritics": 7.3,
         "russianFilmCritics": 0,
         "await": null
       },
-      "year": 1939,
+      "year": 2005,
       "videos": {
         "trailers": [
           {
-            "url": "https://www.youtube.com/embed/tGGEF42hKb4",
-            "name": "Gone With The Wind 1939 Trailer HD | Clark Gable | Vivien Leigh",
+            "url": "https://www.youtube.com/embed/5UnjrG_N8hU",
+            "name": "Star Wars Episode III: Revenge of the Sith - Trailer",
             "site": "youtube",
             "type": "TRAILER"
           },
           {
-            "url": "https://www.youtube.com/embed/0dTsfsr6-X8",
-            "name": "Gone With the Wind (1939) (Trailer) | BFI",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/fsVQhN4nyxw",
-            "name": "Gone With The Wind - Trailer",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/edbllwXLjA8",
-            "name": "Унесенные ветром - трейлер на русском языке",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/Me_Y036u5lg",
-            "name": "Унесенные ветром - Трейлер",
-            "site": "youtube",
-            "type": "TRAILER"
-          },
-          {
-            "url": "https://www.youtube.com/embed/fgdCVxmPMVE",
-            "name": "Gone With the Wind - Theatrical Trailer IB Technicolor Print 4K Remaster",
+            "url": "https://www.youtube.com/embed/2NfweOKO-00",
+            "name": "Звездные войны: Месть cитхов - Трейлер",
             "site": "youtube",
             "type": "TRAILER"
           }
@@ -1034,20 +506,162 @@
         "teasers": []
       },
       "votes": {
-        "kp": 189507,
-        "imdb": 321629,
-        "filmCritics": 103,
-        "russianFilmCritics": 1,
+        "kp": 363631,
+        "imdb": 808568,
+        "filmCritics": 304,
+        "russianFilmCritics": 2,
         "await": 0
       },
       "poster": {
-        "url": "https://st.kp.yandex.net/images/film_big/456.jpg",
-        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_456.jpg"
+        "url": "https://st.kp.yandex.net/images/film_big/5619.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_5619.jpg"
       },
-      "dateStart": "",
-      "dateEnd": ""
+      "dateStart": "2023-05-01T09:31:00.000Z",
+      "dateEnd": "2023-05-31T09:31:00.000Z"
+    },
+    {
+      "id": 555,
+      "name": "Большой Лебовски",
+      "ageRating": 18,
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Великобритания"
+        }
+      ],
+      "description": "Лос-Анджелес, 1991 год, война в Персидском заливе. Главный герой по прозвищу Чувак считает себя совершенно счастливым человеком. Его жизнь составляют игра в боулинг и выпивка. Но внезапно его счастье нарушается, гангстеры по ошибке принимают его за миллионера-однофамильца, требуют деньги, о которых он ничего не подозревает, и, ко всему прочему, похищают жену миллионера, будучи уверенными, что «муж» выплатит за нее любую сумму.",
+      "movieLength": 117,
+      "budget": {
+        "value": 15000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "комедия"
+        },
+        {
+          "name": "криминал"
+        }
+      ],
+      "persons": [
+        {
+          "id": 6652,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6652.jpg",
+          "name": "Джефф Бриджес"
+        },
+        {
+          "id": 7317,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7317.jpg",
+          "name": "Джон Гудман"
+        },
+        {
+          "id": 2669,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2669.jpg",
+          "name": "Джулианна Мур"
+        },
+        {
+          "id": 9271,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_9271.jpg",
+          "name": "Стив Бушеми"
+        },
+        {
+          "id": 65996,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_65996.jpg",
+          "name": "Дэвид Хаддлстон"
+        },
+        {
+          "id": 7225,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7225.jpg",
+          "name": "Филип Сеймур Хоффман"
+        },
+        {
+          "id": 86420,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_86420.jpg",
+          "name": "Картер Бёруэлл"
+        },
+        {
+          "id": 12020,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_12020.jpg",
+          "name": "Джоэл Коэн"
+        }
+      ],
+      "premiere": {
+        "world": "1998-01-18T00:00:00.000Z",
+        "russia": "2013-03-28T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.798,
+        "imdb": 8.1,
+        "filmCritics": 7.4,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1998,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/cd-go0oBF4Y",
+            "name": "\"The Big Lebowski\" Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/GiwMMziJdqg",
+            "name": "Park Circus Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/3QY0ckqBgDw",
+            "name": "Blu-ray Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/VgSqm8-wXWA",
+            "name": "DVD Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/GiwMMziJdqg",
+            "name": "Park Circus Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/3QY0ckqBgDw",
+            "name": "Blu-ray Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/VgSqm8-wXWA",
+            "name": "DVD Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 286823,
+        "imdb": 824432,
+        "filmCritics": 190,
+        "russianFilmCritics": 2,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/555.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_555.jpg"
+      },
+      "dateStart": "2023-05-01T15:21:00.000Z",
+      "dateEnd": "2023-05-31T15:21:00.000Z"
     }
   ],
+  "soon": [],
   "tabs": [
     {
       "id": 1,
@@ -1174,5 +788,785 @@
       ]
     }
   },
-  "movies": []
+  "movies": [
+    {
+      "id": 666,
+      "name": "Форсаж",
+      "ageRating": 16,
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Германия"
+        }
+      ],
+      "description": "Его зовут Брайан, и он — фанат турбин и нитроускорителей. Он пытается попасть в автобанду легендарного Доминика Торетто, чемпиона опасных и незаконных уличных гонок. Брайан также полицейский, и его задание — втереться в доверие к Торетто, подозреваемому в причастности к дерзким грабежам грузовиков, совершаемым прямо на ходу.",
+      "movieLength": 106,
+      "budget": {
+        "value": 38000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "триллер"
+        },
+        {
+          "name": "криминал"
+        }
+      ],
+      "persons": [
+        [
+          {
+            "id": 6317,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6317.jpg",
+            "name": "Пол Уокер"
+          },
+          {
+            "id": 11437,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_11437.jpg",
+            "name": "Вин Дизель"
+          },
+          {
+            "id": 2318,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2318.jpg",
+            "name": "Мишель Родригес"
+          },
+          {
+            "id": 47679,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_47679.jpg",
+            "name": "Джордана Брюстер"
+          },
+          {
+            "id": 16059,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_16059.jpg",
+            "name": "Мэтт Шульце"
+          },
+          {
+            "id": 29366,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_29366.jpg",
+            "name": "Рик Юн"
+          }
+        ],
+        [
+          {
+            "id": 449730,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_449730.jpg",
+            "name": "Брайан Трансо"
+          }
+        ],
+        [],
+        [
+          {
+            "id": 2409,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2409.jpg",
+            "name": "Роб Коэн"
+          }
+        ]
+      ],
+      "premiere": {
+        "world": "2001-06-18T00:00:00.000Z",
+        "russia": "2001-10-18T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.768,
+        "imdb": 6.8,
+        "filmCritics": 5.4,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 2001,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/m_jWcyfjFGw",
+            "name": "Legacy Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/HRe0LVDO9zE",
+            "name": "Trailer 2",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/ZsJz2TJAPjw",
+            "name": "Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/m_jWcyfjFGw",
+            "name": "Legacy Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/HRe0LVDO9zE",
+            "name": "Trailer 2",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/ZsJz2TJAPjw",
+            "name": "Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 277670,
+        "imdb": 395550,
+        "filmCritics": 153,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/666.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_666.jpg"
+      }
+    },
+    {
+      "id": 328,
+      "name": "Властелин колец: Братство Кольца",
+      "ageRating": 12,
+      "countries": [
+        {
+          "name": "Новая Зеландия"
+        },
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Сказания о Средиземье — это хроника Великой войны за Кольцо, длившейся не одну тысячу лет. Тот, кто владел Кольцом, получал неограниченную власть, но был обязан служить злу. \n\nТихая деревня, где живут хоббиты. Придя на 111-й день рождения к своему старому другу Бильбо Бэггинсу, волшебник Гэндальф начинает вести разговор о кольце, которое Бильбо нашел много лет назад. Это кольцо принадлежало когда-то темному властителю Средиземья Саурону, и оно дает большую власть своему обладателю. Теперь Саурон хочет вернуть себе власть над Средиземьем. Бильбо отдает Кольцо племяннику Фродо, чтобы тот отнёс его к Роковой Горе и уничтожил.",
+      "movieLength": 178,
+      "budget": {
+        "value": 93000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "драма"
+        },
+        {
+          "name": "боевик"
+        }
+      ],
+      "persons": [
+        [
+          {
+            "id": 20287,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_20287.jpg",
+            "name": "Элайджа Вуд"
+          },
+          {
+            "id": 8215,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_8215.jpg",
+            "name": "Иэн Маккеллен"
+          },
+          {
+            "id": 28426,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_28426.jpg",
+            "name": "Шон Эстин"
+          },
+          {
+            "id": 10779,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10779.jpg",
+            "name": "Вигго Мортенсен"
+          },
+          {
+            "id": 28463,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_28463.jpg",
+            "name": "Билли Бойд"
+          },
+          {
+            "id": 23240,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_23240.jpg",
+            "name": "Доминик Монахэн"
+          }
+        ],
+        [
+          {
+            "id": 142716,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_142716.jpg",
+            "name": "Говард Шор"
+          }
+        ],
+        [],
+        [
+          {
+            "id": 32383,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_32383.jpg",
+            "name": "Питер Джексон"
+          }
+        ]
+      ],
+      "premiere": {
+        "world": "2001-12-10T00:00:00.000Z",
+        "russia": "2002-02-07T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 8.604,
+        "imdb": 8.8,
+        "filmCritics": 8.2,
+        "russianFilmCritics": 71.4286,
+        "await": null
+      },
+      "year": 2001,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/_nZdmwHrcnw",
+            "name": "Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/AHWSMnEEPdQ",
+            "name": "Властелин Колец: Братство Кольца Официальный Трейлер 1 (2001)",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/xPrxOJCw1B8",
+            "name": "Властелин колец: Братство кольца - Трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 615388,
+        "imdb": 1909328,
+        "filmCritics": 234,
+        "russianFilmCritics": 7,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/328.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_328.jpg"
+      }
+    },
+    {
+      "id": 229253,
+      "name": "Возвращение короля",
+      "ageRating": null,
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Япония"
+        }
+      ],
+      "description": "К стенам Королевского города стекаются несметные войска Повелителя Тьмы. Король-призрак ведет чудовищную армию - тролли и орки, гоблины и назгулы идут на штурм города. Насмерть стоят бесстрашные защитники, все длится и длится кровавый бой... А в горах Мордора Фродо и Сэмми, томясь от жажды и голода, прячась от вездесущих врагов, все ближе и ближе подступают к жерлу Огненной горы...",
+      "movieLength": 98,
+      "budget": {
+        "value": 3000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "мультфильм"
+        },
+        {
+          "name": "мюзикл"
+        },
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "семейный"
+        }
+      ],
+      "persons": [
+        [
+          {
+            "id": 25537,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_25537.jpg",
+            "name": "Орсон Бин"
+          },
+          {
+            "id": 70147,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_70147.jpg",
+            "name": "Теодор Бикел"
+          },
+          {
+            "id": 122631,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_122631.jpg",
+            "name": "Уильям Конрад"
+          },
+          {
+            "id": 145623,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_145623.jpg",
+            "name": "Джон Хьюстон"
+          },
+          {
+            "id": 65213,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_65213.jpg",
+            "name": "Родди Макдауэлл"
+          },
+          {
+            "id": 133830,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_133830.jpg",
+            "name": "Брава Теодор"
+          }
+        ],
+        [
+          {
+            "id": 613602,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_613602.jpg",
+            "name": "Мори Лоус"
+          }
+        ],
+        [],
+        [
+          {
+            "id": 150754,
+            "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_150754.jpg",
+            "name": "Джулз Басс"
+          }
+        ]
+      ],
+      "premiere": {
+        "world": "1980-05-11T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 6.69,
+        "imdb": 5.6,
+        "filmCritics": 5.9,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1980,
+      "videos": {
+        "teasers": [],
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/gfLXFkzQRSI",
+            "name": "The Return of the King Trailer (Animated)",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ]
+      },
+      "votes": {
+        "kp": 1145,
+        "imdb": 4313,
+        "filmCritics": 15,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/229253.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_229253.jpg"
+      }
+    },
+    {
+      "id": 694633,
+      "name": "Хоббит: Битва пяти воинств",
+      "ageRating": 12,
+      "countries": [
+        {
+          "name": "Новая Зеландия"
+        },
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Когда отряд из тринадцати гномов нанимал хоббита Бильбо Бэгинса в качестве взломщика и четырнадцатого, «счастливого», участника похода к Одинокой горе, Бильбо полагал, что его приключения закончатся, когда он выполнит свою задачу - найдет сокровище, которое так необходимо предводителю гномов Торину. Путешествие в Эребор, захваченное драконом Смаугом королевство гномов, оказалось еще более опасным, чем предполагали гномы и даже Гэндальф - мудрый волшебник, протянувший Торину и его отряду руку помощи.\n\nВ погоню за гномами устремилась армия орков, ведомых пробудившимся в руинах древним злом, а эльфы и люди, с которыми Бильбо и его товарищам пришлось иметь дело во время путешествия и которые пострадали от последствий желания гномов вернуть свой дом, предъявили права на щедрое вознаграждение - часть сокровищ Одинокой горы. Скоро неподалеку от Одинокой горы встретятся пять армий, и лишь кровопролитная битва определит результаты смелого гномьего похода.",
+      "movieLength": 144,
+      "budget": {
+        "value": 250000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "боевик"
+        }
+      ],
+      "persons": [
+        {
+          "id": 33496,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_33496.jpg",
+          "name": "Мартин Фриман"
+        },
+        {
+          "id": 8215,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_8215.jpg",
+          "name": "Иэн Маккеллен"
+        },
+        {
+          "id": 252270,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_252270.jpg",
+          "name": "Ричард Армитедж"
+        },
+        {
+          "id": 1289143,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1289143.jpg",
+          "name": "Люк Эванс"
+        },
+        {
+          "id": 605598,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_605598.jpg",
+          "name": "Эванджелин Лилли"
+        },
+        {
+          "id": 697383,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_697383.jpg",
+          "name": "Ли Пейс"
+        },
+        {
+          "id": 142716,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_142716.jpg",
+          "name": "Говард Шор"
+        },
+        {
+          "id": 32383,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_32383.jpg",
+          "name": "Питер Джексон"
+        }
+      ],
+      "premiere": {
+        "world": "2014-12-01T00:00:00.000Z",
+        "russia": "2014-12-11T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.873,
+        "imdb": 7.4,
+        "filmCritics": 6.3,
+        "russianFilmCritics": 90,
+        "await": null
+      },
+      "year": 2014,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/BRg2QEeBLuY",
+            "name": "The Battle of the Five Armies | The Hobbit 4K Ultra HD | Warner Bros. Entertainment",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/j-IPN9mQnEU",
+            "name": "The Hobbit: The Battle of the Five Armies (2014) Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/Y6Fv5StfAxA",
+            "name": "The Hobbit: The Battle of the Five Armies – Main Trailer – HD Official Warner Bros. UK",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/ftDJZpBQJNE",
+            "name": "\"Хоббит: Битва Пяти Воинств\", Расширенная Версия",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/s6K_lDinYxY",
+            "name": "Хоббит: Битва Пяти Воинств",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 366244,
+        "imdb": 545839,
+        "filmCritics": 268,
+        "russianFilmCritics": 20,
+        "await": 94697
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/694633.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_694633.jpg"
+      }
+    },
+    {
+      "id": 5619,
+      "name": "Звёздные войны: Эпизод 3 — Месть ситхов",
+      "ageRating": 12,
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Италия"
+        },
+        {
+          "name": "Швейцария"
+        },
+        {
+          "name": "Таиланд"
+        }
+      ],
+      "description": "Идёт третий год Войн клонов. Галактическая Республика, некогда бывшая спокойным и гармоничным государством, превратилась в поле битвы между армиями клонов, возглавляемых канцлером Палпатином, и армадами дроидов, которых ведёт граф Дуку, тёмный лорд ситхов. Республика медленно погружается во тьму. Лишь рыцари-джедаи, защитники мира и справедливости, могут противостоять злу, которое вскоре поглотит галактику. Но настоящая битва идёт в душе у молодого рыцаря-джедая Энакина, который разрывается между долгом джедая и любовью к своей жене, сенатору Падме Амидале. И от того, какое чувство в нём победит, зависит будущее всего мира.",
+      "movieLength": 140,
+      "budget": {
+        "value": 113000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "фантастика"
+        },
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "приключения"
+        }
+      ],
+      "persons": [
+        {
+          "id": 7590,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7590.jpg",
+          "name": "Юэн Макгрегор"
+        },
+        {
+          "id": 24285,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24285.jpg",
+          "name": "Натали Портман"
+        },
+        {
+          "id": 24771,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24771.jpg",
+          "name": "Хейден Кристенсен"
+        },
+        {
+          "id": 21467,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_21467.jpg",
+          "name": "Иен Макдермид"
+        },
+        {
+          "id": 7164,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7164.jpg",
+          "name": "Сэмюэл Л. Джексон"
+        },
+        {
+          "id": 40022,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_40022.jpg",
+          "name": "Джимми Смитс"
+        },
+        {
+          "id": 225027,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_225027.jpg",
+          "name": "Джон Уильямс"
+        },
+        {
+          "id": 24284,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_24284.jpg",
+          "name": "Джордж Лукас"
+        }
+      ],
+      "premiere": {
+        "world": "2005-05-12T00:00:00.000Z",
+        "russia": "2005-05-19T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 8.108,
+        "imdb": 7.6,
+        "filmCritics": 7.3,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 2005,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/5UnjrG_N8hU",
+            "name": "Star Wars Episode III: Revenge of the Sith - Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/2NfweOKO-00",
+            "name": "Звездные войны: Месть cитхов - Трейлер",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 363631,
+        "imdb": 808568,
+        "filmCritics": 304,
+        "russianFilmCritics": 2,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/5619.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_5619.jpg"
+      }
+    },
+    {
+      "id": 555,
+      "name": "Большой Лебовски",
+      "ageRating": 18,
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Великобритания"
+        }
+      ],
+      "description": "Лос-Анджелес, 1991 год, война в Персидском заливе. Главный герой по прозвищу Чувак считает себя совершенно счастливым человеком. Его жизнь составляют игра в боулинг и выпивка. Но внезапно его счастье нарушается, гангстеры по ошибке принимают его за миллионера-однофамильца, требуют деньги, о которых он ничего не подозревает, и, ко всему прочему, похищают жену миллионера, будучи уверенными, что «муж» выплатит за нее любую сумму.",
+      "movieLength": 117,
+      "budget": {
+        "value": 15000000,
+        "currency": "$"
+      },
+      "genres": [
+        {
+          "name": "комедия"
+        },
+        {
+          "name": "криминал"
+        }
+      ],
+      "persons": [
+        {
+          "id": 6652,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6652.jpg",
+          "name": "Джефф Бриджес"
+        },
+        {
+          "id": 7317,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7317.jpg",
+          "name": "Джон Гудман"
+        },
+        {
+          "id": 2669,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2669.jpg",
+          "name": "Джулианна Мур"
+        },
+        {
+          "id": 9271,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_9271.jpg",
+          "name": "Стив Бушеми"
+        },
+        {
+          "id": 65996,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_65996.jpg",
+          "name": "Дэвид Хаддлстон"
+        },
+        {
+          "id": 7225,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7225.jpg",
+          "name": "Филип Сеймур Хоффман"
+        },
+        {
+          "id": 86420,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_86420.jpg",
+          "name": "Картер Бёруэлл"
+        },
+        {
+          "id": 12020,
+          "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_12020.jpg",
+          "name": "Джоэл Коэн"
+        }
+      ],
+      "premiere": {
+        "world": "1998-01-18T00:00:00.000Z",
+        "russia": "2013-03-28T00:00:00.000Z"
+      },
+      "rating": {
+        "kp": 7.798,
+        "imdb": 8.1,
+        "filmCritics": 7.4,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "year": 1998,
+      "videos": {
+        "trailers": [
+          {
+            "url": "https://www.youtube.com/embed/cd-go0oBF4Y",
+            "name": "\"The Big Lebowski\" Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/GiwMMziJdqg",
+            "name": "Park Circus Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/3QY0ckqBgDw",
+            "name": "Blu-ray Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/VgSqm8-wXWA",
+            "name": "DVD Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/GiwMMziJdqg",
+            "name": "Park Circus Official Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/3QY0ckqBgDw",
+            "name": "Blu-ray Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          },
+          {
+            "url": "https://www.youtube.com/embed/VgSqm8-wXWA",
+            "name": "DVD Trailer",
+            "site": "youtube",
+            "type": "TRAILER"
+          }
+        ],
+        "teasers": []
+      },
+      "votes": {
+        "kp": 286823,
+        "imdb": 824432,
+        "filmCritics": 190,
+        "russianFilmCritics": 2,
+        "await": 0
+      },
+      "poster": {
+        "url": "https://st.kp.yandex.net/images/film_big/555.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_555.jpg"
+      }
+    }
+  ]
 }

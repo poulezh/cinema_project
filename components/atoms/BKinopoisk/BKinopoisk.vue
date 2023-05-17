@@ -4,20 +4,14 @@
     <form @submit.prevent="fetchMovieData">
       <label>
         Введи ID фильма :
-        <input type="text" v-model="movieId" />
+        <input type="text" v-model="nameMovie" />
       </label>
       <button type="submit">Сохранить</button>
     </form>
-    <h3>Фильмы id который уже есть</h3>
-    <ul>
-      <li v-for="movie in moviesList" :key="movie.id">
-        <span class="movie" @click="openPopup(movie)">{{ movie.name }} (ID: {{ movie.id }})</span>
-        <span @click="deleteMovie(movie.id)">x</span>
-      </li>
-    </ul>
+    <b-movie-list :data="moviesList" @open-modal="openPopup" />
     <div v-if="popup" class="popup">
       <div class="popup__content">
-        <b-form :data="popupContent" :tabs="tabs" @close-modal="popup = false" />
+        <b-form-popup :data="popupContent" :tabs="tabs" @close-modal="popup = false" />
         <span class="popup__close" @click="popup = false">X</span>
       </div>
     </div>
@@ -26,18 +20,15 @@
 
 <script>
 import axios from 'axios';
-import BForm from '~/components/atoms/BForm/BForm';
-// import BTabs from '~/components/atoms/BTabs/BTabs';
-// import BSelect from '~/components/atoms/BSelect/BSelect';
-// import BButton from '~/components/atoms/BButton/BButton';
+import getPersonsByProfession from '~/utils/getPersonsByProfession';
+import BFormPopup from '~/components/atoms/BFormPopup/BFormPopup';
+import BMovieList from '~/components/atoms/BMovieList/BMovieList';
 
 export default {
   name: 'BKinopoisk',
   components: {
-    BForm,
-    // BTabs,
-    // BButton,
-    // BSelect,
+    BFormPopup,
+    BMovieList,
   },
   props: {
     tabs: {
@@ -48,38 +39,14 @@ export default {
   data() {
     return {
       movieId: '',
+      nameMovie: '',
       movieData: null,
-      posterDataUrl: null,
       moviesList: [],
       popup: false,
       popupContent: [],
     };
   },
-  computed: {
-    // availableTimes() {
-    //   const sessionTimes = [];
-    //   const movieLength = this.movieLength;
-    //   const breakTime = 15;
-    //   const startHour = Math.floor(this.startTime / 60);
-    //   const endHour = Math.floor(this.endTime / 60);
-
-    //   for (let hour = startHour; hour <= endHour; hour++) {
-    //     for (let minute = 0; minute <= 60 - movieLength - breakTime; minute += movieLength + breakTime) {
-    //       const time = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
-    //       sessionTimes.push(time);
-    //     }
-    //   }
-
-    //   return sessionTimes;
-    // },
-    movieName() {
-      if (this.movieData) {
-        return this.movieData.name;
-      } else {
-        return '';
-      }
-    },
-  },
+  computed: {},
   async mounted() {
     await this.fetchMoviesList();
   },
@@ -87,14 +54,6 @@ export default {
     openPopup(item) {
       this.popup = !this.popup;
       this.popupContent = item;
-    },
-    async deleteMovie(movieId) {
-      try {
-        await axios.delete(`http://localhost:3001/movies/${movieId}`);
-        await this.fetchMoviesList();
-      } catch (error) {
-        console.error(error);
-      }
     },
     async fetchMoviesList() {
       try {
@@ -108,54 +67,39 @@ export default {
       }
     },
     async fetchMovieData() {
-      const apiKey = '29Q3S0H-N6VM2K4-M50XC7W-JCYEWWG';
-      const apiUrl = `https://api.kinopoisk.dev/v1.3/movie/${this.movieId}`;
-      // const apiUrl = `https://api.kinopoisk.dev/v1.3/movie/search?page=1&limit=10&query=${this.movieId}`;
+      const apiKey = this.$config.kinopoiskToken;
+      const searchUrl = `https://api.kinopoisk.dev/v1.2/movie/search?page=1&limit=1&query=${this.nameMovie}`;
 
       try {
-        const response = await axios.get(apiUrl, {
+        const searchResponse = await axios.get(searchUrl, {
           headers: {
             'X-API-KEY': apiKey,
             Accept: 'application/json',
           },
         });
 
-        const movieData = response.data;
-        const posterUrl = movieData.poster.url;
+        this.movieId = searchResponse.data.docs[0].id;
 
-        const posterBlob = await this.loadImageAsBlob(posterUrl);
-        const posterDataUrl = await this.createDataUrlFromFile(posterBlob);
+        const movieUrl = `https://api.kinopoisk.dev/v1.3/movie/${this.movieId}`;
+        const movieResponse = await axios.get(movieUrl, {
+          headers: {
+            'X-API-KEY': apiKey,
+            Accept: 'application/json',
+          },
+        });
 
-        localStorage.setItem(`poster-${this.movieId}`, posterDataUrl);
+        const movieData = movieResponse.data;
 
-        const actors = movieData.persons
-          .filter((person) => person.enProfession === 'actor')
-          .slice(0, 6)
-          .map((person) => ({ id: person.id, photo: person.photo, name: person.name }));
+        const actors = getPersonsByProfession(movieData.persons, 'actor', 6);
+        const composers = getPersonsByProfession(movieData.persons, 'composer', 1);
+        const produsers = getPersonsByProfession(movieData.persons, 'produser', 1);
+        const directors = getPersonsByProfession(movieData.persons, 'director', 1);
 
-        const composers = movieData.persons
-          .filter((person) => person.enProfession === 'composer')
-          .slice(0, 1)
-          .map((person) => ({ id: person.id, photo: person.photo, name: person.name }));
-
-        const produser = movieData.persons
-          .filter((person) => person.enProfession === 'produser')
-          .slice(0, 1)
-          .map((person) => ({ id: person.id, photo: person.photo, name: person.name }));
-
-        const director = movieData.persons
-          .filter((person) => person.enProfession === 'director')
-          .slice(0, 1)
-          .map((person) => ({ id: person.id, photo: person.photo, name: person.name }));
-
-        const personsList = [];
-        personsList.push(actors);
-        personsList.push(composers);
-        personsList.push(produser);
-        personsList.push(director);
+        const personsList = [...actors, ...composers, ...produsers, ...directors];
 
         const dbData = {
-          id: this.movieId,
+          // id: this.movieId,
+          id: movieData.id,
           name: movieData.name,
           ageRating: movieData.ageRating,
           countries: movieData.countries,
@@ -173,27 +117,12 @@ export default {
         };
         await axios.post('http://localhost:3001/movies', dbData);
 
-        this.movieData = movieData;
-        this.posterDataUrl = posterDataUrl;
+        // this.movieData = movieData;
         this.movieId = '';
         this.fetchMoviesList();
       } catch (error) {
         console.error(error);
       }
-    },
-    async loadImageAsBlob(url) {
-      const response = await fetch(url);
-      const blob = await response.blob();
-      return blob;
-    },
-    async createDataUrlFromFile(file) {
-      return await new Promise((resolve) => {
-        const reader = new FileReader();
-        reader.onload = (event) => {
-          resolve(event.target.result);
-        };
-        reader.readAsDataURL(file);
-      });
     },
   },
 };

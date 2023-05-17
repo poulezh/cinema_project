@@ -20,4 +20,10 @@ export default (axios) => ({
   getNews(id) {
     return axios.get(`/api/news/${id}`);
   },
+  affishePage() {
+    return axios.get(`/api/movies`);
+  },
+  getMovies(id) {
+    return axios.get(`/api/movies/${id}`);
+  },
 });

@@ -106,4 +106,7 @@ export default {
       color $green
       pointer-events none
       transition(all)
+  &._affiche
+    & .tabs__tab
+      border-radius 0
 </style>

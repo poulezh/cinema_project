@@ -40,6 +40,7 @@ import BSelect from '~/components/atoms/BSelect/BSelect';
 import BButton from '~/components/atoms/BButton/BButton';
 
 export default {
+  name: 'BFormPopup',
   components: {
     BTabs,
     BButton,

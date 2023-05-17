@@ -5,6 +5,8 @@ import posts from './pages/posts';
 import cards from './pages/cards';
 import news from './pages/news';
 import films from './pages/films';
+import movies from './pages/movies';
+import affiche from './pages/affiche';
 
 import ui from './ui';
 
@@ -24,6 +26,8 @@ const store = () =>
     modules: {
       general,
       posts,
+      affiche,
+      movies,
       cards,
       news,
       films,
