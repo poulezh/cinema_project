@@ -1,7 +1,7 @@
 <template>
-  <div class="card">
-    <BPlaceholder v-if="data.mod" />
-    <div v-else class="card__wrap">
+  <BPlaceholder v-if="data.mod" />
+  <div v-else class="card">
+    <div class="card__wrap">
       <div class="card__image">
         <img :src="data.src || data.poster.url" alt="" />
       </div>
@@ -63,13 +63,12 @@ export default {
 
 <style lang="stylus" scoped>
 .card
-  max-height 455px
-  max-width 315px
   overflow hidden
   position relative
   transition(all)
   transition-delay 0.5s
   transition-duration .7s
+  display inline-block
   +hover()
     transition(all)
     & .card__info
@@ -87,6 +86,10 @@ export default {
   &__image
     border-radius 6px
     overflow hidden
+    max-height 455px
+    height 100%
+    max-width 315px
+    width 100%
     & img
       objectFit(100%, cover)
 

@@ -111,7 +111,6 @@ export default {
         personsList.push(directors);
 
         const dbData = {
-          // id: this.movieId,
           id: movieData.id,
           name: movieData.name,
           ageRating: movieData.ageRating,
@@ -131,7 +130,7 @@ export default {
         await axios.post('http://localhost:3001/movies', dbData);
 
         // this.movieData = movieData;
-        this.movieId = '';
+        this.nameMovie = '';
         this.fetchMoviesList();
       } catch (error) {
         console.error(error);

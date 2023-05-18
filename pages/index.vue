@@ -4,6 +4,9 @@
     <div class="container-mini">
       <b-tabs class="tabs" :tabs="tabs" @change="switchCard" />
     </div>
+    <!-- <div class="card__wrap">
+      <b-card v-for="item in cardsWithPlaceholders" :key="item.id" :data="item" :type="currentTab" />
+    </div> -->
     <masonry :cols="{ default: 6, 1023: 4, 768: 2 }" :gutter="{ default: '2px' }">
       <b-card v-for="item in cardsWithPlaceholders" :key="item.id" :data="item" :type="currentTab" />
     </masonry>
@@ -78,4 +81,6 @@ export default {
 .main
   & .tabs
     margin 12px 0
+  .card__wrap
+    // display flex
 </style>

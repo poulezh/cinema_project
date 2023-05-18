@@ -28,9 +28,12 @@ export default {
   align-items center
   background-color $anthracite
   padding 20px
-  height 455px
+  max-height 455px
+  height 100%
   max-width 315px
+  width 100%
   border-radius 6px
+  display inline-block
 }
 
 .card-placeholder img {

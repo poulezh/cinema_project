@@ -46,7 +46,7 @@ export default {
     async uploadImage(file) {
       const formData = new FormData();
       formData.append('image', new Blob([file], { type: file.type }), file.name);
-      const response = await axios.post('http://localhost:3001/images', formData, {
+      const response = await axios.post('http://localhost:3001/movies/images', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
