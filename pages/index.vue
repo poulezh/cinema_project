@@ -5,7 +5,7 @@
       <b-tabs class="tabs" :tabs="tabs" @change="switchCard" />
     </div>
     <masonry :cols="{ default: 6, 1023: 4, 768: 2 }" :gutter="{ default: '2px' }">
-      <b-card v-for="item in cards" :key="item.id" :data="item" :type="currentTab" />
+      <b-card v-for="item in cardsWithPlaceholders" :key="item.id" :data="item" :type="currentTab" />
     </masonry>
     <b-no-films v-if="cards.length < 1" />
   </div>
@@ -33,7 +33,6 @@ export default {
     const cards = await store.dispatch('cards/getCardsPage');
     const todayList = await store.dispatch('films/getTodayMovie');
     const soonList = await store.dispatch('films/getSoonMovie');
-
     return {
       posters: page.posters,
       cardList: {
@@ -50,7 +49,21 @@ export default {
   },
   computed: {
     cards() {
-      return this.cardList[this.currentTab];
+      const movies = [...this.cardList[this.currentTab]].reverse();
+      return movies;
+    },
+    cardsWithPlaceholders() {
+      if (this.cards.length === 0) {
+        return [];
+      }
+      const cards = [...this.cards];
+      const placeholderCount = 6 - (cards.length % 6);
+      for (let i = 0; i < placeholderCount; i++) {
+        cards.push({
+          mod: 'placeholder',
+        });
+      }
+      return cards;
     },
   },
   methods: {

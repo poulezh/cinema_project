@@ -57,7 +57,7 @@ export default {
   },
   methods: {
     switchMovies(tab) {
-      console.log(tab);
+      // console.log(tab);
     },
   },
 };

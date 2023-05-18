@@ -1,6 +1,7 @@
 <template>
   <div class="card">
-    <div class="card__wrap">
+    <BPlaceholder v-if="data.mod" />
+    <div v-else class="card__wrap">
       <div class="card__image">
         <img :src="data.src || data.poster.url" alt="" />
       </div>
@@ -24,11 +25,13 @@
 
 <script>
 import BButton from '~/components/atoms/BButton/BButton';
+import BPlaceholder from '~/components/atoms/BPlaceholder/BPlaceholder';
 
 export default {
   name: 'BCard',
   components: {
     BButton,
+    BPlaceholder,
   },
   props: {
     mod: {

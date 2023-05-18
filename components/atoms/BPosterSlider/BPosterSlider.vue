@@ -54,11 +54,6 @@ export default {
           },
         },
       },
-      // data: [
-      //   { id: 1, src: '/img/poster1.jpg' },
-      //   { id: 2, src: '/img/poster2.jpg' },
-      //   { id: 3, src: '/img/poster1.jpg' },
-      // ],
     };
   },
   methods: {},

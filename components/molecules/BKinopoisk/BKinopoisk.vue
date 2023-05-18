@@ -1,14 +1,15 @@
 <template>
-  <div>
+  <div class="kinopoisk">
     <h1>Форма добавления фильма</h1>
-    <form @submit.prevent="fetchMovieData">
-      <label>
-        Введи ID фильма :
-        <input type="text" v-model="nameMovie" />
-      </label>
-      <button type="submit">Сохранить</button>
+    <form class="form" @submit.prevent="fetchMovieData">
+      <div class="form__input">
+        <label>
+          <input class="input" type="text" v-model="nameMovie" placeholder="Название фильма" />
+        </label>
+      </div>
+      <b-button type="submit">Сохранить</b-button>
     </form>
-    <b-movie-list :data="moviesList" @open-modal="openPopup" />
+    <b-movie-list :data="moviesList" @open-modal="openPopup" @movie-deleted="fetchMoviesList" />
     <div v-if="popup" class="popup">
       <div class="popup__content">
         <b-form-popup :data="popupContent" :tabs="tabs" @close-modal="popup = false" />
@@ -23,12 +24,16 @@ import axios from 'axios';
 import getPersonsByProfession from '~/utils/getPersonsByProfession';
 import BFormPopup from '~/components/atoms/BFormPopup/BFormPopup';
 import BMovieList from '~/components/atoms/BMovieList/BMovieList';
+// import BInput from '~/components/atoms/BInput/BInput';
+import BButton from '~/components/atoms/BButton/BButton';
 
 export default {
   name: 'BKinopoisk',
   components: {
     BFormPopup,
     BMovieList,
+    // BInput,
+    BButton,
   },
   props: {
     tabs: {
@@ -78,6 +83,8 @@ export default {
           },
         });
 
+        console.log('searchResponse', searchResponse.data.docs[0]);
+
         this.movieId = searchResponse.data.docs[0].id;
 
         const movieUrl = `https://api.kinopoisk.dev/v1.3/movie/${this.movieId}`;
@@ -88,6 +95,8 @@ export default {
           },
         });
 
+        console.log('movieResponse', movieResponse.data);
+
         const movieData = movieResponse.data;
 
         const actors = getPersonsByProfession(movieData.persons, 'actor', 6);
@@ -95,7 +104,11 @@ export default {
         const produsers = getPersonsByProfession(movieData.persons, 'produser', 1);
         const directors = getPersonsByProfession(movieData.persons, 'director', 1);
 
-        const personsList = [...actors, ...composers, ...produsers, ...directors];
+        const personsList = [];
+        personsList.push(actors);
+        personsList.push(composers);
+        personsList.push(produsers);
+        personsList.push(directors);
 
         const dbData = {
           // id: this.movieId,
@@ -129,11 +142,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-
-li
-  +hover()
-    .movie
-      color $orange
+.kinopoisk
+  width 100%
+  height 100%
+  background-color: rgba(0, 0, 0, 0.5);
+  padding 32px
 .popup
   width 100vw
   height 100vh
@@ -150,8 +163,6 @@ li
     bottom 0
     z-index 8
     opacity .5
-  & h3
-    margin-bottom 24px
   &__content
     max-width 1280px
     width 100%
@@ -165,11 +176,6 @@ li
     z-index 9
     display flex
     justify-content space-between
-    & .form
-      display flex
-      flex-direction column
-      gap 32px
-      padding 32px
   &__close
     padding 12px
     position absolute
@@ -178,6 +184,31 @@ li
     +hover()
       cursor pointer
       color $orange
-  &__time
-    display flex
+.form
+  &__input
+    width 300px
+    margin-bottom 32px
+  & .input
+    width 100%
+    // border 2px solid $white
+    border none
+    border-radius 48px
+    color $white
+    fontSzLh(16, 26)
+    font-weight 500
+    text-transform uppercase
+    height 48px
+    padding 0 24px
+    outline none
+    background $dark
+    transition(all)
+    &:focus
+      border-color $white
+    +hover()
+      &::placeholder
+        color rgba($white, 1)
+        transition(all)
+    &::placeholder
+      color rgba($white, 0.5)
+      transition(all)
 </style>

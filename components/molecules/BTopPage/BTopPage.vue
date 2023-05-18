@@ -29,7 +29,6 @@ export default {
 
   methods: {
     switchMovies(tab) {
-      console.log(tab);
       this.$emit('change', tab);
     },
   },

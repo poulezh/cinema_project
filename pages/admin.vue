@@ -5,12 +5,15 @@
 </template>
 
 <script>
-import BKinopoisk from '~/components/atoms/BKinopoisk/BKinopoisk';
+import axios from 'axios';
+import BKinopoisk from '~/components/molecules/BKinopoisk/BKinopoisk';
+// import BInput from '~/components/atoms/BInput/BInput';
 
 export default {
   name: 'BAdminPage',
   components: {
     BKinopoisk,
+    // BInput,
   },
   layout: 'admin',
   props: {
@@ -38,6 +41,18 @@ export default {
   },
   data() {
     return {};
+  },
+  methods: {
+    async uploadImage(file) {
+      const formData = new FormData();
+      formData.append('image', new Blob([file], { type: file.type }), file.name);
+      const response = await axios.post('http://localhost:3001/images', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      });
+      return response.data;
+    },
   },
 };
 </script>

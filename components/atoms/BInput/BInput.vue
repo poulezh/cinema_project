@@ -12,7 +12,8 @@
       autocomplete="off"
       @input="emitInput"
     />
-    <input v-else type="input" class="input" :placeholder="placeholder" name="name" required />
+    <input v-else-if="type === 'input'" type="input" class="input" :placeholder="placeholder" name="name" required />
+    <input v-else-if="type === 'kinopoisk'" type="text" class="input qwewqe" :placeholder="placeholder" name="name" />
     <div class="error-text">{{ errorText }}</div>
   </div>
 </template>
@@ -29,7 +30,7 @@ export default {
     },
     type: {
       type: String,
-      default: 'text',
+      default: '',
     },
     placeholder: {
       type: String,
