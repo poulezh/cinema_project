@@ -83,7 +83,7 @@ export default {
           },
         });
 
-        console.log('searchResponse', searchResponse.data.docs[0]);
+        // console.log('searchResponse', searchResponse.data.docs[0]);
 
         this.movieId = searchResponse.data.docs[0].id;
 
@@ -95,7 +95,7 @@ export default {
           },
         });
 
-        console.log('movieResponse', movieResponse.data);
+        // console.log('movieResponse', movieResponse.data);
 
         const movieData = movieResponse.data;
 

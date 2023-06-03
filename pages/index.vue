@@ -7,17 +7,22 @@
     <!-- <div class="card__wrap">
       <b-card v-for="item in cardsWithPlaceholders" :key="item.id" :data="item" :type="currentTab" />
     </div> -->
-    <masonry :cols="{ default: 6, 1023: 4, 768: 2 }" :gutter="{ default: '2px' }">
-      <b-card v-for="item in cardsWithPlaceholders" :key="item.id" :data="item" :type="currentTab" />
-    </masonry>
+    <client-only>
+      <masonry :cols="{ default: 6, 1680: 5, 1380: 4, 1180: 3, 1024: 2, 768: 1 }" :gutter="{ default: '2px' }">
+        <b-card v-for="item in cardsWithPlaceholders" :key="item.id" :data="item" :type="currentTab" />
+      </masonry>
+    </client-only>
     <b-no-films v-if="cards.length < 1" />
+    <TC />
   </div>
 </template>
 
 <script>
+import axios from 'axios';
 import BPosterSlider from '~/components/atoms/BPosterSlider/BPosterSlider';
 import BCard from '~/components/molecules/BCard/BCard';
 import BTabs from '~/components/atoms/BTabs/BTabs';
+import TC from '~/components/atoms/TC/TC';
 import BNoFilms from '~/components/atoms/BNoFilms/BNoFilms';
 
 export default {
@@ -26,6 +31,7 @@ export default {
     BPosterSlider,
     BCard,
     BTabs,
+    TC,
     BNoFilms,
   },
   async asyncData({ store, route }) {
@@ -68,6 +74,15 @@ export default {
       }
       return cards;
     },
+  },
+  async created() {
+    try {
+      const response = await axios.get('http://127.0.0.1:8000/api/v1/movies');
+      const movies = response.data;
+      console.log('movies', movies);
+    } catch (error) {
+      console.log(error);
+    }
   },
   methods: {
     switchCard(item) {

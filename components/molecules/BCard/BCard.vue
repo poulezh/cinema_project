@@ -1,24 +1,20 @@
 <template>
   <BPlaceholder v-if="data.mod" />
   <div v-else class="card">
-    <div class="card__wrap">
-      <div class="card__image">
-        <img :src="data.src || data.poster.url" alt="" />
+    <img :src="data.src || data.poster.url" alt="" />
+    <div class="card__mem">
+      <div v-if="data.mem" class="card__mem-item">
+        <div class="small">M</div>
+        <div class="full">Меморандум</div>
       </div>
-      <div class="card__mem">
-        <div v-if="data.mem" class="card__mem-item">
-          <div class="small">M</div>
-          <div class="full">Меморандум</div>
-        </div>
-        <div v-if="data.pushcard" class="card__mem-item">
-          <div class="small">П</div>
-          <div class="full">Пушкинская карта</div>
-        </div>
+      <div v-if="data.pushcard" class="card__mem-item">
+        <div class="small">П</div>
+        <div class="full">Пушкинская карта</div>
       </div>
-      <div class="card__info">
-        <div class="card__info-name">{{ data.name }}</div>
-        <div v-if="type === 'today'" class="card__info-btn"><b-button mod="default" to="/schedule"> Купить Билет</b-button></div>
-      </div>
+    </div>
+    <div class="card__info">
+      <div class="card__info-name">{{ data.name }}</div>
+      <div v-if="type === 'today'" class="card__info-btn"><b-button mod="default" to="/schedule"> Купить Билет</b-button></div>
     </div>
   </div>
 </template>
@@ -55,7 +51,7 @@ export default {
     return {};
   },
   mounted() {
-    console.log(this.data);
+    // console.log(this.data);
   },
   methods: {},
 };
@@ -69,6 +65,10 @@ export default {
   transition-delay 0.5s
   transition-duration .7s
   display inline-block
+  height 450px
+  width 100%
+  @media $xs
+    height 560px
   +hover()
     transition(all)
     & .card__info
@@ -83,15 +83,10 @@ export default {
         display flex
         justify-content flex-end
         width 100%
-  &__image
+  & img
     border-radius 6px
     overflow hidden
-    max-height 455px
-    height 100%
-    max-width 315px
-    width 100%
-    & img
-      objectFit(100%, cover)
+    objectFit(100%, cover)
 
   &__info
     position absolute

@@ -1,8 +1,6 @@
 <template>
   <div class="card-placeholder">
-    <p class="card-placeholder-img">
-      <img src="/img/logo.png" alt="" />
-    </p>
+    <img src="/img/logo.png" alt="" />
   </div>
 </template>
 
@@ -21,9 +19,8 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.card-placeholder {
+.card-placeholder
   display flex
-  flex-direction column
   justify-content center
   align-items center
   background-color $anthracite
@@ -33,19 +30,9 @@ export default {
   max-width 315px
   width 100%
   border-radius 6px
-  display inline-block
-}
-
-.card-placeholder img {
-  width 100%
-  max-width 200px
-  height auto
-  margin-bottom 10px
-}
-
-.card-placeholder-text {
-  font-size 14px
-  text-align center
-  color #999
-}
+  & img
+    width 100%
+    max-width 66px
+    height auto
+    margin-bottom 10px
 </style>
